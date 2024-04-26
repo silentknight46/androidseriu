@@ -1,0 +1,3536 @@
+{
+  "config": {
+    "tokens": {
+      "color": {
+        "global": {
+          "dark": {
+            "background": {
+              "rgba": [
+                17,
+                19,
+                20,
+                255
+              ]
+            },
+            "badgeBorder": {
+              "rgba": []
+            },
+            "badgeContrast": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "badgeContrastAccent": {
+              "rgba": [
+                32,
+                138,
+                255,
+                255
+              ]
+            },
+            "badgeSurface": {
+              "rgba": [
+                34,
+                45,
+                52,
+                255
+              ]
+            },
+            "border": {
+              "rgba": [
+                22,
+                26,
+                28,
+                255
+              ]
+            },
+            "borderAccent": {
+              "rgba": [
+                0,
+                106,
+                255,
+                255
+              ]
+            },
+            "borderStrong": {
+              "rgba": [
+                45,
+                60,
+                69,
+                255
+              ]
+            },
+            "buttonCriticalBorder": {
+              "rgba": []
+            },
+            "buttonCriticalBorderFocused": {
+              "rgba": []
+            },
+            "buttonCriticalBorderOnDown": {
+              "rgba": []
+            },
+            "buttonCriticalContrast": {
+              "rgba": [
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            "buttonCriticalContrastFocused": {
+              "rgba": []
+            },
+            "buttonCriticalContrastOnDown": {
+              "rgba": []
+            },
+            "buttonCriticalSurface": {
+              "rgba": [
+                217,
+                38,
+                101,
+                255
+              ]
+            },
+            "buttonCriticalSurfaceFocused": {
+              "rgba": []
+            },
+            "buttonCriticalSurfaceOnDown": {
+              "rgba": []
+            },
+            "buttonDisabledBorder": {
+              "rgba": []
+            },
+            "buttonDisabledContrast": {
+              "rgba": [
+                255,
+                255,
+                255,
+                51
+              ]
+            },
+            "buttonDisabledSurface": {
+              "rgba": [
+                255,
+                255,
+                255,
+                26
+              ]
+            },
+            "buttonPlayBorder": {
+              "rgba": []
+            },
+            "buttonPlayBorderFocused": {
+              "rgba": []
+            },
+            "buttonPlayBorderOnDown": {
+              "rgba": []
+            },
+            "buttonPlayBorderSelected": {
+              "rgba": []
+            },
+            "buttonPlayContrast": {
+              "rgba": [
+                17,
+                19,
+                20,
+                255
+              ]
+            },
+            "buttonPlayContrastFocused": {
+              "rgba": []
+            },
+            "buttonPlayContrastOnDown": {
+              "rgba": []
+            },
+            "buttonPlayContrastSelected": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "buttonPlaySurface": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "buttonPlaySurfaceFocused": {
+              "rgba": []
+            },
+            "buttonPlaySurfaceOnDown": {
+              "rgba": []
+            },
+            "buttonPlaySurfaceSelected": {
+              "rgba": [
+                25,
+                33,
+                38,
+                255
+              ]
+            },
+            "buttonPrimaryBorder": {
+              "rgba": []
+            },
+            "buttonPrimaryBorderFocused": {
+              "rgba": []
+            },
+            "buttonPrimaryBorderOnDown": {
+              "rgba": []
+            },
+            "buttonPrimaryContrast": {
+              "rgba": [
+                17,
+                19,
+                20,
+                255
+              ]
+            },
+            "buttonPrimaryContrastFocused": {
+              "rgba": []
+            },
+            "buttonPrimaryContrastOnDown": {
+              "rgba": []
+            },
+            "buttonPrimarySurface": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "buttonPrimarySurfaceFocused": {
+              "rgba": []
+            },
+            "buttonPrimarySurfaceOnDown": {
+              "rgba": []
+            },
+            "buttonSecondaryBorder": {
+              "rgba": [
+                127,
+                137,
+                141,
+                255
+              ]
+            },
+            "buttonSecondaryBorderFocused": {
+              "rgba": []
+            },
+            "buttonSecondaryBorderOnDown": {
+              "rgba": []
+            },
+            "buttonSecondaryContrast": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "buttonSecondaryContrastFocused": {
+              "rgba": []
+            },
+            "buttonSecondaryContrastOnDown": {
+              "rgba": []
+            },
+            "buttonSecondarySurface": {
+              "rgba": []
+            },
+            "buttonSecondarySurfaceFocused": {
+              "rgba": []
+            },
+            "buttonSecondarySurfaceOnDown": {
+              "rgba": []
+            },
+            "buttonSelectableBorder": {
+              "rgba": []
+            },
+            "buttonSelectableBorderFocused": {
+              "rgba": []
+            },
+            "buttonSelectableBorderOnDown": {
+              "rgba": []
+            },
+            "buttonSelectableBorderSelected": {
+              "rgba": []
+            },
+            "buttonSelectableBrandBorder": {
+              "rgba": []
+            },
+            "buttonSelectableBrandBorderSelected": {
+              "rgba": []
+            },
+            "buttonSelectableBrandContrast": {
+              "rgba": [
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            "buttonSelectableBrandContrastSelected": {
+              "rgba": [
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            "buttonSelectableBrandSurface": {
+              "rgba": [
+                22,
+                26,
+                28,
+                255
+              ]
+            },
+            "buttonSelectableBrandSurfaceSelected": {
+              "rgba": [
+                0,
+                106,
+                255,
+                255
+              ]
+            },
+            "buttonSelectableContrast": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "buttonSelectableContrastFocused": {
+              "rgba": []
+            },
+            "buttonSelectableContrastOnDown": {
+              "rgba": []
+            },
+            "buttonSelectableContrastSelected": {
+              "rgba": [
+                17,
+                19,
+                20,
+                255
+              ]
+            },
+            "buttonSelectableIconBorder": {
+              "rgba": []
+            },
+            "buttonSelectableIconBorderFocused": {
+              "rgba": []
+            },
+            "buttonSelectableIconBorderOnDown": {
+              "rgba": []
+            },
+            "buttonSelectableIconBorderSelected": {
+              "rgba": []
+            },
+            "buttonSelectableIconContrast": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "buttonSelectableIconContrastFocused": {
+              "rgba": []
+            },
+            "buttonSelectableIconContrastOnDown": {
+              "rgba": []
+            },
+            "buttonSelectableIconContrastSelected": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "buttonSelectableIconSurface": {
+              "rgba": []
+            },
+            "buttonSelectableIconSurfaceFocused": {
+              "rgba": []
+            },
+            "buttonSelectableIconSurfaceOnDown": {
+              "rgba": []
+            },
+            "buttonSelectableIconSurfaceSelected": {
+              "rgba": []
+            },
+            "buttonSelectableOnSurfaceBorder": {
+              "rgba": []
+            },
+            "buttonSelectableOnSurfaceBorderSelected": {
+              "rgba": []
+            },
+            "buttonSelectableOnSurfaceContrast": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "buttonSelectableOnSurfaceContrastSelected": {
+              "rgba": [
+                17,
+                19,
+                20,
+                255
+              ]
+            },
+            "buttonSelectableOnSurfaceSurface": {
+              "rgba": [
+                17,
+                19,
+                20,
+                255
+              ]
+            },
+            "buttonSelectableOnSurfaceSurfaceSelected": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "buttonSelectableSurface": {
+              "rgba": [
+                25,
+                33,
+                38,
+                255
+              ]
+            },
+            "buttonSelectableSurfaceFocused": {
+              "rgba": []
+            },
+            "buttonSelectableSurfaceOnDown": {
+              "rgba": []
+            },
+            "buttonSelectableSurfaceSelected": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "buttonTertiaryBorder": {
+              "rgba": []
+            },
+            "buttonTertiaryBorderFocused": {
+              "rgba": []
+            },
+            "buttonTertiaryBorderOnDown": {
+              "rgba": []
+            },
+            "buttonTertiaryContrast": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "buttonTertiaryContrastFocused": {
+              "rgba": []
+            },
+            "buttonTertiaryContrastOnDown": {
+              "rgba": []
+            },
+            "buttonTertiarySurface": {
+              "rgba": []
+            },
+            "buttonTertiarySurfaceFocused": {
+              "rgba": []
+            },
+            "buttonTertiarySurfaceOnDown": {
+              "rgba": []
+            },
+            "contrast": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "contrastAccent": {
+              "rgba": [
+                32,
+                138,
+                255,
+                255
+              ]
+            },
+            "contrastCritical": {
+              "rgba": [
+                255,
+                51,
+                124,
+                255
+              ]
+            },
+            "contrastSubtle": {
+              "rgba": [
+                127,
+                137,
+                141,
+                255
+              ]
+            },
+            "inputBorder": {
+              "rgba": []
+            },
+            "inputBorderCritical": {
+              "rgba": [
+                255,
+                51,
+                124,
+                255
+              ]
+            },
+            "inputBorderFocused": {
+              "rgba": [
+                0,
+                106,
+                255,
+                255
+              ]
+            },
+            "inputBorderHasInput": {
+              "rgba": []
+            },
+            "inputContrast": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "inputContrastCritical": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "inputContrastFocused": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "inputContrastHasInput": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "inputContrastSubtle": {
+              "rgba": [
+                127,
+                137,
+                141,
+                255
+              ]
+            },
+            "inputContrastSubtleCritical": {
+              "rgba": [
+                127,
+                137,
+                141,
+                255
+              ]
+            },
+            "inputContrastSubtleFocused": {
+              "rgba": [
+                127,
+                137,
+                141,
+                255
+              ]
+            },
+            "inputContrastSubtleHasInput": {
+              "rgba": [
+                127,
+                137,
+                141,
+                255
+              ]
+            },
+            "inputOnSurfaceBorder": {
+              "rgba": []
+            },
+            "inputOnSurfaceBorderCritical": {
+              "rgba": [
+                255,
+                51,
+                124,
+                255
+              ]
+            },
+            "inputOnSurfaceBorderFocused": {
+              "rgba": [
+                0,
+                106,
+                255,
+                255
+              ]
+            },
+            "inputOnSurfaceBorderHasInput": {
+              "rgba": []
+            },
+            "inputOnSurfaceContrast": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "inputOnSurfaceContrastCritical": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "inputOnSurfaceContrastFocused": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "inputOnSurfaceContrastHasInput": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "inputOnSurfaceContrastSubtle": {
+              "rgba": [
+                127,
+                137,
+                141,
+                255
+              ]
+            },
+            "inputOnSurfaceContrastSubtleCritical": {
+              "rgba": [
+                127,
+                137,
+                141,
+                255
+              ]
+            },
+            "inputOnSurfaceContrastSubtleFocused": {
+              "rgba": [
+                127,
+                137,
+                141,
+                255
+              ]
+            },
+            "inputOnSurfaceContrastSubtleHasInput": {
+              "rgba": [
+                127,
+                137,
+                141,
+                255
+              ]
+            },
+            "inputOnSurfaceSurface": {
+              "rgba": [
+                17,
+                19,
+                20,
+                255
+              ]
+            },
+            "inputOnSurfaceSurfaceCritical": {
+              "rgba": [
+                17,
+                19,
+                20,
+                255
+              ]
+            },
+            "inputOnSurfaceSurfaceFocused": {
+              "rgba": [
+                17,
+                19,
+                20,
+                255
+              ]
+            },
+            "inputOnSurfaceSurfaceHasInput": {
+              "rgba": [
+                17,
+                19,
+                20,
+                255
+              ]
+            },
+            "inputSurface": {
+              "rgba": [
+                22,
+                26,
+                28,
+                255
+              ]
+            },
+            "inputSurfaceCritical": {
+              "rgba": [
+                22,
+                26,
+                28,
+                255
+              ]
+            },
+            "inputSurfaceFocused": {
+              "rgba": [
+                25,
+                33,
+                38,
+                255
+              ]
+            },
+            "inputSurfaceHasInput": {
+              "rgba": [
+                25,
+                33,
+                38,
+                255
+              ]
+            },
+            "messageBorder": {
+              "rgba": []
+            },
+            "messageBrandBorder": {
+              "rgba": []
+            },
+            "messageBrandContrast": {
+              "rgba": [
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            "messageBrandContrastSubtle": {
+              "rgba": [
+                255,
+                255,
+                255,
+                179
+              ]
+            },
+            "messageBrandSurface": {
+              "rgba": [
+                0,
+                85,
+                204,
+                255
+              ]
+            },
+            "messageContrast": {
+              "rgba": [
+                17,
+                19,
+                20,
+                255
+              ]
+            },
+            "messageContrastSubtle": {
+              "rgba": [
+                77,
+                86,
+                91,
+                255
+              ]
+            },
+            "messageSurface": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "navigationBorder": {
+              "rgba": []
+            },
+            "navigationBorderHover": {
+              "rgba": []
+            },
+            "navigationBorderSelected": {
+              "rgba": []
+            },
+            "navigationContrast": {
+              "rgba": [
+                127,
+                137,
+                141,
+                255
+              ]
+            },
+            "navigationContrastHover": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "navigationContrastSelected": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "navigationContrastSubtleSelected": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "navigationSurface": {
+              "rgba": []
+            },
+            "navigationSurfaceHover": {
+              "rgba": [
+                45,
+                60,
+                69,
+                255
+              ]
+            },
+            "navigationSurfaceSelected": {
+              "rgba": []
+            },
+            "overlayBackground": {
+              "rgba": [
+                0,
+                0,
+                0,
+                176
+              ]
+            },
+            "overlayBackgroundAlt": {
+              "rgba": [
+                27,
+                31,
+                34,
+                176
+              ]
+            },
+            "overlayBackgroundSubtle": {
+              "rgba": [
+                0,
+                0,
+                0,
+                128
+              ]
+            },
+            "overlayBadgeBorder": {
+              "rgba": []
+            },
+            "overlayBadgeContrast": {
+              "rgba": [
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            "overlayBadgeContrastAccent": {
+              "rgba": [
+                32,
+                138,
+                255,
+                255
+              ]
+            },
+            "overlayBadgeSurface": {
+              "rgba": [
+                0,
+                0,
+                0,
+                176
+              ]
+            },
+            "overlayBorder": {
+              "rgba": [
+                255,
+                255,
+                255,
+                26
+              ]
+            },
+            "overlayBorderFocused": {
+              "rgba": [
+                0,
+                106,
+                255,
+                255
+              ]
+            },
+            "overlayBorderStrong": {
+              "rgba": [
+                255,
+                255,
+                255,
+                51
+              ]
+            },
+            "overlayButtonPlayBorder": {
+              "rgba": []
+            },
+            "overlayButtonPlayBorderFocused": {
+              "rgba": []
+            },
+            "overlayButtonPlayBorderOnDown": {
+              "rgba": []
+            },
+            "overlayButtonPlayBorderSelected": {
+              "rgba": []
+            },
+            "overlayButtonPlayContrast": {
+              "rgba": [
+                0,
+                0,
+                0,
+                255
+              ]
+            },
+            "overlayButtonPlayContrastFocused": {
+              "rgba": []
+            },
+            "overlayButtonPlayContrastOnDown": {
+              "rgba": []
+            },
+            "overlayButtonPlayContrastSelected": {
+              "rgba": [
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            "overlayButtonPlaySurface": {
+              "rgba": [
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            "overlayButtonPlaySurfaceFocused": {
+              "rgba": []
+            },
+            "overlayButtonPlaySurfaceOnDown": {
+              "rgba": []
+            },
+            "overlayButtonPlaySurfaceSelected": {
+              "rgba": [
+                0,
+                0,
+                0,
+                176
+              ]
+            },
+            "overlayButtonPrimaryBorder": {
+              "rgba": []
+            },
+            "overlayButtonPrimaryBorderFocused": {
+              "rgba": []
+            },
+            "overlayButtonPrimaryBorderOnDown": {
+              "rgba": []
+            },
+            "overlayButtonPrimaryContrast": {
+              "rgba": [
+                0,
+                0,
+                0,
+                255
+              ]
+            },
+            "overlayButtonPrimaryContrastFocused": {
+              "rgba": []
+            },
+            "overlayButtonPrimaryContrastOnDown": {
+              "rgba": []
+            },
+            "overlayButtonPrimarySurface": {
+              "rgba": [
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            "overlayButtonPrimarySurfaceFocused": {
+              "rgba": []
+            },
+            "overlayButtonPrimarySurfaceOnDown": {
+              "rgba": []
+            },
+            "overlayButtonSecondaryBorder": {
+              "rgba": []
+            },
+            "overlayButtonSecondaryBorderFocused": {
+              "rgba": []
+            },
+            "overlayButtonSecondaryBorderOnDown": {
+              "rgba": []
+            },
+            "overlayButtonSecondaryContrast": {
+              "rgba": [
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            "overlayButtonSecondaryContrastFocused": {
+              "rgba": []
+            },
+            "overlayButtonSecondaryContrastOnDown": {
+              "rgba": []
+            },
+            "overlayButtonSecondarySurface": {
+              "rgba": [
+                0,
+                0,
+                0,
+                176
+              ]
+            },
+            "overlayButtonSecondarySurfaceFocused": {
+              "rgba": []
+            },
+            "overlayButtonSecondarySurfaceOnDown": {
+              "rgba": []
+            },
+            "overlayButtonSelectableIconBorder": {
+              "rgba": []
+            },
+            "overlayButtonSelectableIconBorderFocused": {
+              "rgba": []
+            },
+            "overlayButtonSelectableIconBorderOnDown": {
+              "rgba": []
+            },
+            "overlayButtonSelectableIconBorderSelected": {
+              "rgba": []
+            },
+            "overlayButtonSelectableIconContrast": {
+              "rgba": []
+            },
+            "overlayButtonSelectableIconContrastFocused": {
+              "rgba": []
+            },
+            "overlayButtonSelectableIconContrastOnDown": {
+              "rgba": []
+            },
+            "overlayButtonSelectableIconContrastSelected": {
+              "rgba": []
+            },
+            "overlayButtonSelectableIconSurface": {
+              "rgba": []
+            },
+            "overlayButtonSelectableIconSurfaceFocused": {
+              "rgba": []
+            },
+            "overlayButtonSelectableIconSurfaceOnDown": {
+              "rgba": []
+            },
+            "overlayButtonSelectableIconSurfaceSelected": {
+              "rgba": []
+            },
+            "overlayButtonTertiaryBorder": {
+              "rgba": []
+            },
+            "overlayButtonTertiaryBorderFocused": {
+              "rgba": []
+            },
+            "overlayButtonTertiaryBorderOnDown": {
+              "rgba": []
+            },
+            "overlayButtonTertiaryContrast": {
+              "rgba": [
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            "overlayButtonTertiaryContrastFocused": {
+              "rgba": []
+            },
+            "overlayButtonTertiaryContrastOnDown": {
+              "rgba": []
+            },
+            "overlayButtonTertiarySurface": {
+              "rgba": []
+            },
+            "overlayButtonTertiarySurfaceFocused": {
+              "rgba": []
+            },
+            "overlayButtonTertiarySurfaceOnDown": {
+              "rgba": []
+            },
+            "overlayContrast": {
+              "rgba": [
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            "overlayContrastAccent": {
+              "rgba": [
+                32,
+                138,
+                255,
+                255
+              ]
+            },
+            "overlayContrastCritical": {
+              "rgba": [
+                255,
+                51,
+                124,
+                255
+              ]
+            },
+            "overlayContrastSubtle": {
+              "rgba": [
+                255,
+                255,
+                255,
+                128
+              ]
+            },
+            "overlayProgressBarBorder": {
+              "rgba": []
+            },
+            "overlayProgressBarContrast": {
+              "rgba": [
+                0,
+                0,
+                0,
+                255
+              ]
+            },
+            "overlayProgressBarSurface": {
+              "rgba": [
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            "overlayProgressBarSurfaceAccent": {
+              "rgba": [
+                0,
+                106,
+                255,
+                255
+              ]
+            },
+            "overlayProgressBarSurfaceSubtle": {
+              "rgba": [
+                255,
+                255,
+                255,
+                51
+              ]
+            },
+            "overlaySurface": {
+              "rgba": [
+                255,
+                255,
+                255,
+                26
+              ]
+            },
+            "overlaySurfaceAccent": {
+              "rgba": [
+                0,
+                106,
+                255,
+                255
+              ]
+            },
+            "overlaySurfaceStrong": {
+              "rgba": [
+                255,
+                255,
+                255,
+                51
+              ]
+            },
+            "selectionControlBorder": {
+              "rgba": [
+                0,
+                106,
+                255,
+                255
+              ]
+            },
+            "selectionControlBorderCritical": {
+              "rgba": [
+                255,
+                51,
+                124,
+                255
+              ]
+            },
+            "selectionControlBorderSelected": {
+              "rgba": [
+                0,
+                106,
+                255,
+                255
+              ]
+            },
+            "selectionControlBorderSubtle": {
+              "rgba": []
+            },
+            "selectionControlBorderSubtleCritical": {
+              "rgba": []
+            },
+            "selectionControlBorderSubtleSelected": {
+              "rgba": []
+            },
+            "selectionControlContrast": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "selectionControlContrastCritical": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "selectionControlContrastSelected": {
+              "rgba": [
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            "selectionControlSurface": {
+              "rgba": [
+                25,
+                33,
+                38,
+                255
+              ]
+            },
+            "selectionControlSurfaceCritical": {
+              "rgba": [
+                25,
+                33,
+                38,
+                255
+              ]
+            },
+            "selectionControlSurfaceSelected": {
+              "rgba": [
+                0,
+                106,
+                255,
+                255
+              ]
+            },
+            "selectionControlSurfaceSubtle": {
+              "rgba": []
+            },
+            "selectionControlSurfaceSubtleCritical": {
+              "rgba": []
+            },
+            "selectionControlSurfaceSubtleSelected": {
+              "rgba": [
+                0,
+                85,
+                204,
+                255
+              ]
+            },
+            "surface": {
+              "rgba": [
+                22,
+                26,
+                28,
+                255
+              ]
+            },
+            "surfaceAccent": {
+              "rgba": [
+                0,
+                106,
+                255,
+                255
+              ]
+            },
+            "surfaceStrong": {
+              "rgba": [
+                25,
+                33,
+                38,
+                255
+              ]
+            },
+            "tempHeroSubtitle": {
+              "rgba": [
+                233,
+                233,
+                233,
+                255
+              ]
+            }
+          }
+        },
+        "tv": {
+          "dark": {
+            "background": {
+              "rgba": [
+                17,
+                19,
+                20,
+                255
+              ]
+            },
+            "badgeBorder": {
+              "rgba": []
+            },
+            "badgeContrast": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "badgeContrastAccent": {
+              "rgba": [
+                32,
+                138,
+                255,
+                255
+              ]
+            },
+            "badgeSurface": {
+              "rgba": [
+                34,
+                45,
+                52,
+                255
+              ]
+            },
+            "border": {
+              "rgba": [
+                22,
+                26,
+                28,
+                255
+              ]
+            },
+            "borderAccent": {
+              "rgba": [
+                0,
+                106,
+                255,
+                255
+              ]
+            },
+            "borderStrong": {
+              "rgba": [
+                45,
+                60,
+                69,
+                255
+              ]
+            },
+            "buttonCriticalBorder": {
+              "rgba": [
+                255,
+                51,
+                124,
+                255
+              ]
+            },
+            "buttonCriticalBorderFocused": {
+              "rgba": []
+            },
+            "buttonCriticalBorderOnDown": {
+              "rgba": []
+            },
+            "buttonCriticalContrast": {
+              "rgba": [
+                255,
+                51,
+                124,
+                255
+              ]
+            },
+            "buttonCriticalContrastFocused": {
+              "rgba": [
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            "buttonCriticalContrastOnDown": {
+              "rgba": [
+                255,
+                255,
+                255,
+                179
+              ]
+            },
+            "buttonCriticalSurface": {
+              "rgba": []
+            },
+            "buttonCriticalSurfaceFocused": {
+              "rgba": [
+                217,
+                38,
+                101,
+                255
+              ]
+            },
+            "buttonCriticalSurfaceOnDown": {
+              "rgba": [
+                109,
+                19,
+                51,
+                255
+              ]
+            },
+            "buttonDisabledBorder": {
+              "rgba": []
+            },
+            "buttonDisabledContrast": {
+              "rgba": [
+                255,
+                255,
+                255,
+                51
+              ]
+            },
+            "buttonDisabledSurface": {
+              "rgba": [
+                255,
+                255,
+                255,
+                26
+              ]
+            },
+            "buttonPlayBorder": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "buttonPlayBorderFocused": {
+              "rgba": []
+            },
+            "buttonPlayBorderOnDown": {
+              "rgba": []
+            },
+            "buttonPlayBorderSelected": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "buttonPlayContrast": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "buttonPlayContrastFocused": {
+              "rgba": [
+                34,
+                45,
+                52,
+                255
+              ]
+            },
+            "buttonPlayContrastOnDown": {
+              "rgba": [
+                34,
+                45,
+                52,
+                255
+              ]
+            },
+            "buttonPlayContrastSelected": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "buttonPlaySurface": {
+              "rgba": []
+            },
+            "buttonPlaySurfaceFocused": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "buttonPlaySurfaceOnDown": {
+              "rgba": [
+                127,
+                137,
+                141,
+                255
+              ]
+            },
+            "buttonPlaySurfaceSelected": {
+              "rgba": []
+            },
+            "buttonPrimaryBorder": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "buttonPrimaryBorderFocused": {
+              "rgba": []
+            },
+            "buttonPrimaryBorderOnDown": {
+              "rgba": []
+            },
+            "buttonPrimaryContrast": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "buttonPrimaryContrastFocused": {
+              "rgba": [
+                34,
+                45,
+                52,
+                255
+              ]
+            },
+            "buttonPrimaryContrastOnDown": {
+              "rgba": [
+                34,
+                45,
+                52,
+                255
+              ]
+            },
+            "buttonPrimarySurface": {
+              "rgba": []
+            },
+            "buttonPrimarySurfaceFocused": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "buttonPrimarySurfaceOnDown": {
+              "rgba": [
+                127,
+                137,
+                141,
+                255
+              ]
+            },
+            "buttonSecondaryBorder": {
+              "rgba": [
+                127,
+                137,
+                141,
+                255
+              ]
+            },
+            "buttonSecondaryBorderFocused": {
+              "rgba": []
+            },
+            "buttonSecondaryBorderOnDown": {
+              "rgba": []
+            },
+            "buttonSecondaryContrast": {
+              "rgba": [
+                158,
+                162,
+                163,
+                255
+              ]
+            },
+            "buttonSecondaryContrastFocused": {
+              "rgba": [
+                34,
+                45,
+                52,
+                255
+              ]
+            },
+            "buttonSecondaryContrastOnDown": {
+              "rgba": [
+                34,
+                45,
+                52,
+                255
+              ]
+            },
+            "buttonSecondarySurface": {
+              "rgba": []
+            },
+            "buttonSecondarySurfaceFocused": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "buttonSecondarySurfaceOnDown": {
+              "rgba": [
+                127,
+                137,
+                141,
+                255
+              ]
+            },
+            "buttonSelectableBorder": {
+              "rgba": []
+            },
+            "buttonSelectableBorderFocused": {
+              "rgba": []
+            },
+            "buttonSelectableBorderOnDown": {
+              "rgba": []
+            },
+            "buttonSelectableBorderSelected": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "buttonSelectableBrandBorder": {
+              "rgba": []
+            },
+            "buttonSelectableBrandBorderSelected": {
+              "rgba": []
+            },
+            "buttonSelectableBrandContrast": {
+              "rgba": [
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            "buttonSelectableBrandContrastSelected": {
+              "rgba": [
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            "buttonSelectableBrandSurface": {
+              "rgba": [
+                22,
+                26,
+                28,
+                255
+              ]
+            },
+            "buttonSelectableBrandSurfaceSelected": {
+              "rgba": [
+                0,
+                106,
+                255,
+                255
+              ]
+            },
+            "buttonSelectableContrast": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "buttonSelectableContrastFocused": {
+              "rgba": [
+                34,
+                45,
+                52,
+                255
+              ]
+            },
+            "buttonSelectableContrastOnDown": {
+              "rgba": [
+                34,
+                45,
+                52,
+                255
+              ]
+            },
+            "buttonSelectableContrastSelected": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "buttonSelectableIconBorder": {
+              "rgba": [
+                127,
+                137,
+                141,
+                255
+              ]
+            },
+            "buttonSelectableIconBorderFocused": {
+              "rgba": []
+            },
+            "buttonSelectableIconBorderOnDown": {
+              "rgba": []
+            },
+            "buttonSelectableIconBorderSelected": {
+              "rgba": [
+                127,
+                137,
+                141,
+                255
+              ]
+            },
+            "buttonSelectableIconContrast": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "buttonSelectableIconContrastFocused": {
+              "rgba": [
+                34,
+                45,
+                52,
+                255
+              ]
+            },
+            "buttonSelectableIconContrastOnDown": {
+              "rgba": [
+                34,
+                45,
+                52,
+                255
+              ]
+            },
+            "buttonSelectableIconContrastSelected": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "buttonSelectableIconSurface": {
+              "rgba": []
+            },
+            "buttonSelectableIconSurfaceFocused": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "buttonSelectableIconSurfaceOnDown": {
+              "rgba": [
+                127,
+                137,
+                141,
+                255
+              ]
+            },
+            "buttonSelectableIconSurfaceSelected": {
+              "rgba": []
+            },
+            "buttonSelectableOnSurfaceBorder": {
+              "rgba": []
+            },
+            "buttonSelectableOnSurfaceBorderSelected": {
+              "rgba": []
+            },
+            "buttonSelectableOnSurfaceContrast": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "buttonSelectableOnSurfaceContrastSelected": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "buttonSelectableOnSurfaceSurface": {
+              "rgba": [
+                17,
+                19,
+                20,
+                255
+              ]
+            },
+            "buttonSelectableOnSurfaceSurfaceSelected": {
+              "rgba": [
+                45,
+                60,
+                69,
+                255
+              ]
+            },
+            "buttonSelectableSurface": {
+              "rgba": [
+                25,
+                33,
+                38,
+                255
+              ]
+            },
+            "buttonSelectableSurfaceFocused": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "buttonSelectableSurfaceOnDown": {
+              "rgba": [
+                127,
+                137,
+                141,
+                255
+              ]
+            },
+            "buttonSelectableSurfaceSelected": {
+              "rgba": [
+                25,
+                33,
+                38,
+                255
+              ]
+            },
+            "buttonTertiaryBorder": {
+              "rgba": []
+            },
+            "buttonTertiaryBorderFocused": {
+              "rgba": []
+            },
+            "buttonTertiaryBorderOnDown": {
+              "rgba": []
+            },
+            "buttonTertiaryContrast": {
+              "rgba": [
+                158,
+                162,
+                163,
+                255
+              ]
+            },
+            "buttonTertiaryContrastFocused": {
+              "rgba": [
+                34,
+                45,
+                52,
+                255
+              ]
+            },
+            "buttonTertiaryContrastOnDown": {
+              "rgba": [
+                34,
+                45,
+                52,
+                255
+              ]
+            },
+            "buttonTertiarySurface": {
+              "rgba": []
+            },
+            "buttonTertiarySurfaceFocused": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "buttonTertiarySurfaceOnDown": {
+              "rgba": [
+                127,
+                137,
+                141,
+                255
+              ]
+            },
+            "contrast": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "contrastAccent": {
+              "rgba": [
+                32,
+                138,
+                255,
+                255
+              ]
+            },
+            "contrastCritical": {
+              "rgba": [
+                255,
+                51,
+                124,
+                255
+              ]
+            },
+            "contrastSubtle": {
+              "rgba": [
+                86,
+                94,
+                97,
+                255
+              ]
+            },
+            "inputBorder": {
+              "rgba": []
+            },
+            "inputBorderCritical": {
+              "rgba": [
+                255,
+                51,
+                124,
+                255
+              ]
+            },
+            "inputBorderFocused": {
+              "rgba": [
+                45,
+                60,
+                69,
+                255
+              ]
+            },
+            "inputBorderHasInput": {
+              "rgba": []
+            },
+            "inputContrast": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "inputContrastCritical": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "inputContrastFocused": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "inputContrastHasInput": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "inputContrastSubtle": {
+              "rgba": [
+                127,
+                137,
+                141,
+                255
+              ]
+            },
+            "inputContrastSubtleCritical": {
+              "rgba": [
+                127,
+                137,
+                141,
+                255
+              ]
+            },
+            "inputContrastSubtleFocused": {
+              "rgba": [
+                127,
+                137,
+                141,
+                255
+              ]
+            },
+            "inputContrastSubtleHasInput": {
+              "rgba": [
+                127,
+                137,
+                141,
+                255
+              ]
+            },
+            "inputOnSurfaceBorder": {
+              "rgba": []
+            },
+            "inputOnSurfaceBorderCritical": {
+              "rgba": [
+                255,
+                51,
+                124,
+                255
+              ]
+            },
+            "inputOnSurfaceBorderFocused": {
+              "rgba": [
+                45,
+                60,
+                69,
+                255
+              ]
+            },
+            "inputOnSurfaceBorderHasInput": {
+              "rgba": []
+            },
+            "inputOnSurfaceContrast": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "inputOnSurfaceContrastCritical": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "inputOnSurfaceContrastFocused": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "inputOnSurfaceContrastHasInput": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "inputOnSurfaceContrastSubtle": {
+              "rgba": [
+                127,
+                137,
+                141,
+                255
+              ]
+            },
+            "inputOnSurfaceContrastSubtleCritical": {
+              "rgba": [
+                127,
+                137,
+                141,
+                255
+              ]
+            },
+            "inputOnSurfaceContrastSubtleFocused": {
+              "rgba": [
+                127,
+                137,
+                141,
+                255
+              ]
+            },
+            "inputOnSurfaceContrastSubtleHasInput": {
+              "rgba": [
+                127,
+                137,
+                141,
+                255
+              ]
+            },
+            "inputOnSurfaceSurface": {
+              "rgba": [
+                17,
+                19,
+                20,
+                255
+              ]
+            },
+            "inputOnSurfaceSurfaceCritical": {
+              "rgba": [
+                17,
+                19,
+                20,
+                255
+              ]
+            },
+            "inputOnSurfaceSurfaceFocused": {
+              "rgba": [
+                17,
+                19,
+                20,
+                255
+              ]
+            },
+            "inputOnSurfaceSurfaceHasInput": {
+              "rgba": [
+                17,
+                19,
+                20,
+                255
+              ]
+            },
+            "inputSurface": {
+              "rgba": [
+                22,
+                26,
+                28,
+                255
+              ]
+            },
+            "inputSurfaceCritical": {
+              "rgba": [
+                22,
+                26,
+                28,
+                255
+              ]
+            },
+            "inputSurfaceFocused": {
+              "rgba": [
+                25,
+                33,
+                38,
+                255
+              ]
+            },
+            "inputSurfaceHasInput": {
+              "rgba": [
+                22,
+                26,
+                28,
+                255
+              ]
+            },
+            "messageBorder": {
+              "rgba": []
+            },
+            "messageBrandBorder": {
+              "rgba": []
+            },
+            "messageBrandContrast": {
+              "rgba": []
+            },
+            "messageBrandContrastSubtle": {
+              "rgba": []
+            },
+            "messageBrandSurface": {
+              "rgba": []
+            },
+            "messageContrast": {
+              "rgba": [
+                17,
+                19,
+                20,
+                255
+              ]
+            },
+            "messageContrastSubtle": {
+              "rgba": [
+                77,
+                86,
+                91,
+                255
+              ]
+            },
+            "messageSurface": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "navigationBorder": {
+              "rgba": []
+            },
+            "navigationBorderHover": {
+              "rgba": []
+            },
+            "navigationBorderSelected": {
+              "rgba": []
+            },
+            "navigationContrast": {
+              "rgba": [
+                255,
+                255,
+                255,
+                51
+              ]
+            },
+            "navigationContrastHover": {
+              "rgba": [
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            "navigationContrastSelected": {
+              "rgba": [
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            "navigationContrastSubtleSelected": {
+              "rgba": [
+                255,
+                255,
+                255,
+                51
+              ]
+            },
+            "navigationSurface": {
+              "rgba": []
+            },
+            "navigationSurfaceHover": {
+              "rgba": []
+            },
+            "navigationSurfaceSelected": {
+              "rgba": []
+            },
+            "overlayBackground": {
+              "rgba": [
+                0,
+                0,
+                0,
+                176
+              ]
+            },
+            "overlayBackgroundAlt": {
+              "rgba": [
+                27,
+                31,
+                34,
+                176
+              ]
+            },
+            "overlayBackgroundSubtle": {
+              "rgba": []
+            },
+            "overlayBadgeBorder": {
+              "rgba": []
+            },
+            "overlayBadgeContrast": {
+              "rgba": [
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            "overlayBadgeContrastAccent": {
+              "rgba": [
+                32,
+                138,
+                255,
+                255
+              ]
+            },
+            "overlayBadgeSurface": {
+              "rgba": [
+                0,
+                0,
+                0,
+                176
+              ]
+            },
+            "overlayBorder": {
+              "rgba": [
+                255,
+                255,
+                255,
+                26
+              ]
+            },
+            "overlayBorderFocused": {
+              "rgba": [
+                0,
+                106,
+                255,
+                255
+              ]
+            },
+            "overlayBorderStrong": {
+              "rgba": [
+                255,
+                255,
+                255,
+                51
+              ]
+            },
+            "overlayButtonPlayBorder": {
+              "rgba": [
+                255,
+                255,
+                255,
+                179
+              ]
+            },
+            "overlayButtonPlayBorderFocused": {
+              "rgba": []
+            },
+            "overlayButtonPlayBorderOnDown": {
+              "rgba": []
+            },
+            "overlayButtonPlayBorderSelected": {
+              "rgba": [
+                255,
+                255,
+                255,
+                179
+              ]
+            },
+            "overlayButtonPlayContrast": {
+              "rgba": [
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            "overlayButtonPlayContrastFocused": {
+              "rgba": [
+                0,
+                0,
+                0,
+                204
+              ]
+            },
+            "overlayButtonPlayContrastOnDown": {
+              "rgba": [
+                255,
+                255,
+                255,
+                179
+              ]
+            },
+            "overlayButtonPlayContrastSelected": {
+              "rgba": [
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            "overlayButtonPlaySurface": {
+              "rgba": []
+            },
+            "overlayButtonPlaySurfaceFocused": {
+              "rgba": [
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            "overlayButtonPlaySurfaceOnDown": {
+              "rgba": [
+                255,
+                255,
+                255,
+                51
+              ]
+            },
+            "overlayButtonPlaySurfaceSelected": {
+              "rgba": []
+            },
+            "overlayButtonPrimaryBorder": {
+              "rgba": [
+                255,
+                255,
+                255,
+                179
+              ]
+            },
+            "overlayButtonPrimaryBorderFocused": {
+              "rgba": []
+            },
+            "overlayButtonPrimaryBorderOnDown": {
+              "rgba": []
+            },
+            "overlayButtonPrimaryContrast": {
+              "rgba": [
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            "overlayButtonPrimaryContrastFocused": {
+              "rgba": [
+                0,
+                0,
+                0,
+                204
+              ]
+            },
+            "overlayButtonPrimaryContrastOnDown": {
+              "rgba": [
+                255,
+                255,
+                255,
+                179
+              ]
+            },
+            "overlayButtonPrimarySurface": {
+              "rgba": []
+            },
+            "overlayButtonPrimarySurfaceFocused": {
+              "rgba": [
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            "overlayButtonPrimarySurfaceOnDown": {
+              "rgba": [
+                255,
+                255,
+                255,
+                51
+              ]
+            },
+            "overlayButtonSecondaryBorder": {
+              "rgba": [
+                255,
+                255,
+                255,
+                128
+              ]
+            },
+            "overlayButtonSecondaryBorderFocused": {
+              "rgba": []
+            },
+            "overlayButtonSecondaryBorderOnDown": {
+              "rgba": []
+            },
+            "overlayButtonSecondaryContrast": {
+              "rgba": [
+                255,
+                255,
+                255,
+                128
+              ]
+            },
+            "overlayButtonSecondaryContrastFocused": {
+              "rgba": [
+                0,
+                0,
+                0,
+                204
+              ]
+            },
+            "overlayButtonSecondaryContrastOnDown": {
+              "rgba": [
+                255,
+                255,
+                255,
+                179
+              ]
+            },
+            "overlayButtonSecondarySurface": {
+              "rgba": []
+            },
+            "overlayButtonSecondarySurfaceFocused": {
+              "rgba": [
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            "overlayButtonSecondarySurfaceOnDown": {
+              "rgba": [
+                255,
+                255,
+                255,
+                51
+              ]
+            },
+            "overlayButtonSelectableIconBorder": {
+              "rgba": [
+                255,
+                255,
+                255,
+                179
+              ]
+            },
+            "overlayButtonSelectableIconBorderFocused": {
+              "rgba": []
+            },
+            "overlayButtonSelectableIconBorderOnDown": {
+              "rgba": []
+            },
+            "overlayButtonSelectableIconBorderSelected": {
+              "rgba": [
+                255,
+                255,
+                255,
+                179
+              ]
+            },
+            "overlayButtonSelectableIconContrast": {
+              "rgba": [
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            "overlayButtonSelectableIconContrastFocused": {
+              "rgba": [
+                0,
+                0,
+                0,
+                204
+              ]
+            },
+            "overlayButtonSelectableIconContrastOnDown": {
+              "rgba": [
+                255,
+                255,
+                255,
+                179
+              ]
+            },
+            "overlayButtonSelectableIconContrastSelected": {
+              "rgba": [
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            "overlayButtonSelectableIconSurface": {
+              "rgba": []
+            },
+            "overlayButtonSelectableIconSurfaceFocused": {
+              "rgba": [
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            "overlayButtonSelectableIconSurfaceOnDown": {
+              "rgba": [
+                255,
+                255,
+                255,
+                51
+              ]
+            },
+            "overlayButtonSelectableIconSurfaceSelected": {
+              "rgba": []
+            },
+            "overlayButtonTertiaryBorder": {
+              "rgba": []
+            },
+            "overlayButtonTertiaryBorderFocused": {
+              "rgba": []
+            },
+            "overlayButtonTertiaryBorderOnDown": {
+              "rgba": []
+            },
+            "overlayButtonTertiaryContrast": {
+              "rgba": [
+                255,
+                255,
+                255,
+                128
+              ]
+            },
+            "overlayButtonTertiaryContrastFocused": {
+              "rgba": [
+                0,
+                0,
+                0,
+                204
+              ]
+            },
+            "overlayButtonTertiaryContrastOnDown": {
+              "rgba": [
+                255,
+                255,
+                255,
+                179
+              ]
+            },
+            "overlayButtonTertiarySurface": {
+              "rgba": []
+            },
+            "overlayButtonTertiarySurfaceFocused": {
+              "rgba": [
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            "overlayButtonTertiarySurfaceOnDown": {
+              "rgba": [
+                255,
+                255,
+                255,
+                51
+              ]
+            },
+            "overlayContrast": {
+              "rgba": [
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            "overlayContrastAccent": {
+              "rgba": [
+                32,
+                138,
+                255,
+                255
+              ]
+            },
+            "overlayContrastCritical": {
+              "rgba": [
+                255,
+                51,
+                124,
+                255
+              ]
+            },
+            "overlayContrastSubtle": {
+              "rgba": [
+                255,
+                255,
+                255,
+                128
+              ]
+            },
+            "overlayProgressBarBorder": {
+              "rgba": []
+            },
+            "overlayProgressBarContrast": {
+              "rgba": [
+                0,
+                0,
+                0,
+                255
+              ]
+            },
+            "overlayProgressBarSurface": {
+              "rgba": [
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            "overlayProgressBarSurfaceAccent": {
+              "rgba": [
+                0,
+                106,
+                255,
+                255
+              ]
+            },
+            "overlayProgressBarSurfaceSubtle": {
+              "rgba": [
+                255,
+                255,
+                255,
+                51
+              ]
+            },
+            "overlaySurface": {
+              "rgba": [
+                255,
+                255,
+                255,
+                26
+              ]
+            },
+            "overlaySurfaceAccent": {
+              "rgba": [
+                0,
+                106,
+                255,
+                255
+              ]
+            },
+            "overlaySurfaceStrong": {
+              "rgba": [
+                255,
+                255,
+                255,
+                51
+              ]
+            },
+            "selectionControlBorder": {
+              "rgba": [
+                0,
+                106,
+                255,
+                255
+              ]
+            },
+            "selectionControlBorderCritical": {
+              "rgba": [
+                255,
+                51,
+                124,
+                255
+              ]
+            },
+            "selectionControlBorderSelected": {
+              "rgba": [
+                0,
+                106,
+                255,
+                255
+              ]
+            },
+            "selectionControlBorderSubtle": {
+              "rgba": []
+            },
+            "selectionControlBorderSubtleCritical": {
+              "rgba": []
+            },
+            "selectionControlBorderSubtleSelected": {
+              "rgba": []
+            },
+            "selectionControlContrast": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "selectionControlContrastCritical": {
+              "rgba": [
+                245,
+                245,
+                245,
+                255
+              ]
+            },
+            "selectionControlContrastSelected": {
+              "rgba": [
+                255,
+                255,
+                255,
+                255
+              ]
+            },
+            "selectionControlSurface": {
+              "rgba": [
+                25,
+                33,
+                38,
+                255
+              ]
+            },
+            "selectionControlSurfaceCritical": {
+              "rgba": [
+                25,
+                33,
+                38,
+                255
+              ]
+            },
+            "selectionControlSurfaceSelected": {
+              "rgba": [
+                0,
+                106,
+                255,
+                255
+              ]
+            },
+            "selectionControlSurfaceSubtle": {
+              "rgba": []
+            },
+            "selectionControlSurfaceSubtleCritical": {
+              "rgba": []
+            },
+            "selectionControlSurfaceSubtleSelected": {
+              "rgba": [
+                0,
+                85,
+                204,
+                255
+              ]
+            },
+            "surface": {
+              "rgba": [
+                22,
+                26,
+                28,
+                255
+              ]
+            },
+            "surfaceAccent": {
+              "rgba": [
+                0,
+                106,
+                255,
+                255
+              ]
+            },
+            "surfaceStrong": {
+              "rgba": [
+                25,
+                33,
+                38,
+                255
+              ]
+            },
+            "tempHeroSubtitle": {
+              "rgba": []
+            }
+          }
+        }
+      },
+      "spacing": {
+        "small": {
+          "interItem": {
+            "horizontal": 8,
+            "vertical": 16
+          },
+          "interSet": {
+            "horizontal": 16,
+            "vertical": 32
+          },
+          "page": {
+            "bottom": 24,
+            "horizontal": 24,
+            "top": 24
+          }
+        },
+        "medium": {
+          "interItem": {
+            "horizontal": 16,
+            "vertical": 16
+          },
+          "interSet": {
+            "horizontal": 32,
+            "vertical": 32
+          },
+          "page": {
+            "bottom": 24,
+            "horizontal": 32,
+            "top": 24
+          }
+        },
+        "tv": {
+          "interItem": {
+            "horizontal": 32,
+            "vertical": 32
+          },
+          "interSet": {
+            "horizontal": 32,
+            "vertical": 64
+          },
+          "page": {
+            "bottom": 204,
+            "horizontal": 204,
+            "top": 204
+          }
+        }
+      },
+      "size": {
+        "global": {
+          "badge": {
+            "large": 20,
+            "small": 16
+          },
+          "buttonSurface": {
+            "large": 44,
+            "medium": 38,
+            "small": 32
+          },
+          "icon": {
+            "large": 24,
+            "medium": 20,
+            "small": 16,
+            "xsmall": 12
+          },
+          "imageList": {
+            "large": 72,
+            "medium": 60,
+            "small": 40,
+            "xlarge": 140
+          },
+          "lineWidth": {
+            "large": 4,
+            "medium": 2,
+            "small": 1
+          },
+          "progressLineWidth": {
+            "large": 4,
+            "medium": 3,
+            "small": 2.5
+          },
+          "rounding": {
+            "large": 24,
+            "medium": 16,
+            "small": 8,
+            "xlarge": 40,
+            "xsmall": 4
+          }
+        },
+        "tv": {
+          "badge": {
+            "large": 20,
+            "small": 16
+          },
+          "buttonSurface": {
+            "large": 84,
+            "medium": 56,
+            "small": 48
+          },
+          "icon": {
+            "large": 32,
+            "medium": 24,
+            "small": 16,
+            "xsmall": 16
+          },
+          "imageList": {
+            "large": 72,
+            "medium": 60,
+            "small": 40,
+            "xlarge": 140
+          },
+          "lineWidth": {
+            "large": 4,
+            "medium": 2,
+            "small": 1
+          },
+          "progressLineWidth": {
+            "large": 8,
+            "medium": 6,
+            "small": 4,
+            "xlarge": 16
+          },
+          "rounding": {
+            "large": 24,
+            "medium": 16,
+            "small": 8,
+            "xlarge": 40,
+            "xsmall": 4
+          }
+        }
+      },
+      "shape": {
+        "global": {
+          "buttonComposite": {
+            "shapeType": "capsule"
+          },
+          "buttonIcon": {
+            "shapeType": "circle"
+          },
+          "imageCircle": {
+            "shapeType": "circle"
+          },
+          "imageLandscape": {
+            "aspectRatio": 1.78,
+            "shapeType": "rectangle"
+          },
+          "imageStandard": {
+            "aspectRatio": 1,
+            "shapeType": "rectangle"
+          },
+          "inputField": {
+            "shapeType": "rectangle"
+          },
+          "itemCategoryLarge": {
+            "aspectRatio": 1.78,
+            "shapeType": "rectangle"
+          },
+          "itemContained": {
+            "shapeType": "capsule"
+          },
+          "logo": {
+            "aspectRatio": 1.25,
+            "shapeType": "rectangle"
+          },
+          "searchField": {
+            "shapeType": "capsule"
+          }
+        },
+        "tv": {
+          "buttonComposite": {
+            "shapeType": "capsule"
+          },
+          "buttonIcon": {
+            "shapeType": "circle"
+          },
+          "imageCircle": {
+            "shapeType": "circle"
+          },
+          "imageLandscape": {
+            "aspectRatio": 1.78,
+            "shapeType": "rectangle"
+          },
+          "imageStandard": {
+            "aspectRatio": 1,
+            "shapeType": "rectangle"
+          },
+          "inputField": {
+            "shapeType": "rectangle"
+          },
+          "itemCategoryLarge": {
+            "aspectRatio": 1.78,
+            "shapeType": "rectangle"
+          },
+          "itemCategorySmall": {
+            "aspectRatio": 1,
+            "shapeType": "rectangle"
+          },
+          "itemContained": {
+            "shapeType": "capsule"
+          },
+          "logo": {
+            "aspectRatio": 1.25,
+            "shapeType": "rectangle"
+          },
+          "searchField": {
+            "shapeType": "capsule"
+          }
+        }
+      },
+      "font": {
+        "global": {
+          "badgeLarge": {
+            "fontFamily": "Helvetica Now Text",
+            "fontSize": 14,
+            "fontWeight": 500,
+            "letterSpacing": 0,
+            "lineHeight": 14,
+            "textDecoration": "none"
+          },
+          "badgeMedium": {
+            "fontFamily": "Helvetica Now Text",
+            "fontSize": 12,
+            "fontWeight": 500,
+            "letterSpacing": 0,
+            "lineHeight": 12,
+            "textDecoration": "none"
+          },
+          "badgeSmall": {
+            "fontFamily": "Helvetica Now Text",
+            "fontSize": 10,
+            "fontWeight": 500,
+            "letterSpacing": 0,
+            "lineHeight": 10,
+            "textDecoration": "none"
+          },
+          "detailLarge": {
+            "fontFamily": "Helvetica Now Text",
+            "fontSize": 16,
+            "fontWeight": 400,
+            "letterSpacing": 0,
+            "lineHeight": 20,
+            "textDecoration": "none"
+          },
+          "detailMedium": {
+            "fontFamily": "Helvetica Now Text",
+            "fontSize": 14,
+            "fontWeight": 400,
+            "letterSpacing": 0,
+            "lineHeight": 17.5,
+            "textDecoration": "none"
+          },
+          "detailSmall": {
+            "fontFamily": "Helvetica Now Text",
+            "fontSize": 12,
+            "fontWeight": 400,
+            "letterSpacing": 0,
+            "lineHeight": 15,
+            "textDecoration": "none"
+          },
+          "headlineLarge": {
+            "fontFamily": "Helvetica Now Text",
+            "fontSize": 48,
+            "fontWeight": 500,
+            "letterSpacing": 0,
+            "lineHeight": 52.8,
+            "textDecoration": "none"
+          },
+          "headlineMedium": {
+            "fontFamily": "Helvetica Now Text",
+            "fontSize": 32,
+            "fontWeight": 500,
+            "letterSpacing": 0,
+            "lineHeight": 35.2,
+            "textDecoration": "none"
+          },
+          "headlineSmall": {
+            "fontFamily": "Helvetica Now Text",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "letterSpacing": 0,
+            "lineHeight": 25,
+            "textDecoration": "none"
+          },
+          "labelLarge": {
+            "fontFamily": "Helvetica Now Text",
+            "fontSize": 16,
+            "fontWeight": 500,
+            "letterSpacing": 0,
+            "lineHeight": 20,
+            "textDecoration": "none"
+          },
+          "labelMedium": {
+            "fontFamily": "Helvetica Now Text",
+            "fontSize": 14,
+            "fontWeight": 500,
+            "letterSpacing": 0,
+            "lineHeight": 17.5,
+            "textDecoration": "none"
+          },
+          "labelSmall": {
+            "fontFamily": "Helvetica Now Text",
+            "fontSize": 12,
+            "fontWeight": 500,
+            "letterSpacing": 0,
+            "lineHeight": 15,
+            "textDecoration": "none"
+          },
+          "legalLink": {
+            "fontFamily": "Helvetica Now Text",
+            "fontSize": 13,
+            "fontWeight": 400,
+            "letterSpacing": 0,
+            "lineHeight": 19.5,
+            "textDecoration": "underline"
+          },
+          "legalPlain": {
+            "fontFamily": "Helvetica Now Text",
+            "fontSize": 13,
+            "fontWeight": 400,
+            "letterSpacing": 0,
+            "lineHeight": 19.5,
+            "textDecoration": "none"
+          },
+          "legalStrong": {
+            "fontFamily": "Helvetica Now Text",
+            "fontSize": 13,
+            "fontWeight": 700,
+            "letterSpacing": 0,
+            "lineHeight": 19.5,
+            "textDecoration": "none"
+          },
+          "paragraphLargeLink": {
+            "fontFamily": "Helvetica Now Text",
+            "fontSize": 16,
+            "fontWeight": 400,
+            "letterSpacing": 0,
+            "lineHeight": 24,
+            "textDecoration": "underline"
+          },
+          "paragraphLargePlain": {
+            "fontFamily": "Helvetica Now Text",
+            "fontSize": 16,
+            "fontWeight": 400,
+            "letterSpacing": 0,
+            "lineHeight": 24,
+            "textDecoration": "none"
+          },
+          "paragraphMediumLink": {
+            "fontFamily": "Helvetica Now Text",
+            "fontSize": 14,
+            "fontWeight": 400,
+            "letterSpacing": 0,
+            "lineHeight": 21,
+            "textDecoration": "underline"
+          },
+          "paragraphMediumPlain": {
+            "fontFamily": "Helvetica Now Text",
+            "fontSize": 14,
+            "fontWeight": 400,
+            "letterSpacing": 0,
+            "lineHeight": 21,
+            "textDecoration": "none"
+          },
+          "paragraphSmallLink": {
+            "fontFamily": "Helvetica Now Text",
+            "fontSize": 12,
+            "fontWeight": 400,
+            "letterSpacing": 0,
+            "lineHeight": 18,
+            "textDecoration": "underline"
+          },
+          "paragraphSmallPlain": {
+            "fontFamily": "Helvetica Now Text",
+            "fontSize": 12,
+            "fontWeight": 400,
+            "letterSpacing": 0,
+            "lineHeight": 18,
+            "textDecoration": "none"
+          },
+          "titleLarge": {
+            "fontFamily": "Helvetica Now Text",
+            "fontSize": 24,
+            "fontWeight": 500,
+            "letterSpacing": 0,
+            "lineHeight": 30,
+            "textDecoration": "none"
+          },
+          "titleMedium": {
+            "fontFamily": "Helvetica Now Text",
+            "fontSize": 16,
+            "fontWeight": 500,
+            "letterSpacing": 0,
+            "lineHeight": 20,
+            "textDecoration": "none"
+          },
+          "titleSmall": {
+            "fontFamily": "Helvetica Now Text",
+            "fontSize": 14,
+            "fontWeight": 500,
+            "letterSpacing": 0,
+            "lineHeight": 17.5,
+            "textDecoration": "none"
+          }
+        },
+        "tv": {
+          "badgeLarge": {
+            "fontFamily": "Helvetica Now Display",
+            "fontSize": 24,
+            "fontWeight": 400,
+            "letterSpacing": 0,
+            "lineHeight": 24,
+            "textDecoration": "none"
+          },
+          "badgeMedium": {
+            "fontFamily": "Helvetica Now Display",
+            "fontSize": 16,
+            "fontWeight": 400,
+            "letterSpacing": 0,
+            "lineHeight": 16,
+            "textDecoration": "none"
+          },
+          "badgeSmall": {
+            "fontFamily": "Helvetica Now Micro",
+            "fontSize": 12,
+            "fontWeight": 400,
+            "letterSpacing": 0,
+            "lineHeight": 12,
+            "textDecoration": "none"
+          },
+          "detailLarge": {
+            "fontFamily": "Helvetica Now Display",
+            "fontSize": 24,
+            "fontWeight": 400,
+            "letterSpacing": 0,
+            "lineHeight": 36,
+            "textDecoration": "none"
+          },
+          "detailMedium": {
+            "fontFamily": "Helvetica Now Text",
+            "fontSize": 14,
+            "fontWeight": 400,
+            "letterSpacing": 0,
+            "lineHeight": 17.5,
+            "textDecoration": "none"
+          },
+          "detailSmall": {
+            "fontFamily": "Helvetica Now Micro",
+            "fontSize": 16,
+            "fontWeight": 400,
+            "letterSpacing": 0,
+            "lineHeight": 24,
+            "textDecoration": "none"
+          },
+          "headlineLarge": {
+            "fontFamily": "Helvetica Now Display",
+            "fontSize": 68,
+            "fontWeight": 500,
+            "letterSpacing": 0,
+            "lineHeight": 74.8,
+            "textDecoration": "none"
+          },
+          "headlineMedium": {
+            "fontFamily": "Helvetica Now Display",
+            "fontSize": 60,
+            "fontWeight": 500,
+            "letterSpacing": 0,
+            "lineHeight": 66,
+            "textDecoration": "none"
+          },
+          "headlineSmall": {
+            "fontFamily": "Helvetica Now Display",
+            "fontSize": 48,
+            "fontWeight": 500,
+            "letterSpacing": 0,
+            "lineHeight": 52.8,
+            "textDecoration": "none"
+          },
+          "labelLarge": {
+            "fontFamily": "Helvetica Now Display",
+            "fontSize": 24,
+            "fontWeight": 400,
+            "letterSpacing": 0,
+            "lineHeight": 36,
+            "textDecoration": "none"
+          },
+          "labelMedium": {
+            "fontFamily": "Helvetica Now Text",
+            "fontSize": 14,
+            "fontWeight": 500,
+            "letterSpacing": 0,
+            "lineHeight": 17.5,
+            "textDecoration": "none"
+          },
+          "labelSmall": {
+            "fontFamily": "Helvetica Now Micro",
+            "fontSize": 16,
+            "fontWeight": 400,
+            "letterSpacing": 0,
+            "lineHeight": 24,
+            "textDecoration": "none"
+          },
+          "legalLink": {
+            "fontFamily": "Helvetica Now Text",
+            "fontSize": 13,
+            "fontWeight": 400,
+            "letterSpacing": 0,
+            "lineHeight": 19.5,
+            "textDecoration": "underline"
+          },
+          "legalPlain": {
+            "fontFamily": "Helvetica Now Micro",
+            "fontSize": 16,
+            "fontWeight": 400,
+            "letterSpacing": 0,
+            "lineHeight": 24,
+            "textDecoration": "none"
+          },
+          "legalStrong": {
+            "fontFamily": "Helvetica Now Micro",
+            "fontSize": 16,
+            "fontWeight": 700,
+            "letterSpacing": 0,
+            "lineHeight": 24,
+            "textDecoration": "none"
+          },
+          "paragraphLargeLink": {
+            "fontFamily": "Helvetica Now Text",
+            "fontSize": 16,
+            "fontWeight": 400,
+            "letterSpacing": 0,
+            "lineHeight": 24,
+            "textDecoration": "underline"
+          },
+          "paragraphLargePlain": {
+            "fontFamily": "Helvetica Now Display",
+            "fontSize": 24,
+            "fontWeight": 400,
+            "letterSpacing": 0,
+            "lineHeight": 36,
+            "textDecoration": "none"
+          },
+          "paragraphMediumLink": {
+            "fontFamily": "Helvetica Now Text",
+            "fontSize": 14,
+            "fontWeight": 400,
+            "letterSpacing": 0,
+            "lineHeight": 21,
+            "textDecoration": "underline"
+          },
+          "paragraphMediumPlain": {
+            "fontFamily": "Helvetica Now Text",
+            "fontSize": 14,
+            "fontWeight": 400,
+            "letterSpacing": 0,
+            "lineHeight": 21,
+            "textDecoration": "none"
+          },
+          "paragraphSmallLink": {
+            "fontFamily": "Helvetica Now Text",
+            "fontSize": 12,
+            "fontWeight": 400,
+            "letterSpacing": 0,
+            "lineHeight": 18,
+            "textDecoration": "underline"
+          },
+          "paragraphSmallPlain": {
+            "fontFamily": "Helvetica Now Micro",
+            "fontSize": 16,
+            "fontWeight": 400,
+            "letterSpacing": 0,
+            "lineHeight": 24,
+            "textDecoration": "none"
+          },
+          "titleLarge": {
+            "fontFamily": "Helvetica Now Display",
+            "fontSize": 32,
+            "fontWeight": 500,
+            "letterSpacing": 0,
+            "lineHeight": 48,
+            "textDecoration": "none"
+          },
+          "titleMedium": {
+            "fontFamily": "Helvetica Now Display",
+            "fontSize": 24,
+            "fontWeight": 500,
+            "letterSpacing": 0,
+            "lineHeight": 36,
+            "textDecoration": "none"
+          },
+          "titleSmall": {
+            "fontFamily": "Helvetica Now Micro",
+            "fontSize": 16,
+            "fontWeight": 500,
+            "letterSpacing": 0,
+            "lineHeight": 24,
+            "textDecoration": "none"
+          }
+        }
+      }
+    },
+    "debugOptions": {
+      "shouldCrashOnMissingTextStyle": true
+    },
+    "performanceOptions": {
+      "disableBlur": false
+    },
+    "breakpoints": {
+      "landscapeMediumBreakpointHeight": 480,
+      "portraitMediumBreakpointWidth": 600
+    },
+    "components": {
+      "common": {
+        "navBarTitleText": {
+          "type": "text",
+          "font": "headlineMedium",
+          "color": "contrast"
+        },
+        "setHeaderTitleText": {
+          "type": "text",
+          "font": "headlineSmall",
+          "color": "contrast"
+        },
+        "navBarPrimaryAction": {
+          "type": "button",
+          "variant": "overlay",
+          "prominence": "secondary",
+          "scale": "large"
+        }
+      }
+    }
+  },
+  "overrides": {}
+}

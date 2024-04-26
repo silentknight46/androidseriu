@@ -1,0 +1,48 @@
+{
+  "config": {
+    "testKey": "key_test_nEcjyCsDwE8N4lqL809ZVgolrqdUjxp4",
+    "prodKey": "key_live_nxfnsACyyA4H3btK3XW7OocpyufHfzgI",
+    "isBranchEnabled": true,
+    "isLoggingEnabled": true,
+    "isTestModeEnabled": false,
+    "countryCode": null
+  },
+  "overrides": {
+    "buildType": {
+      "constraints": {
+        "debugConfig": {
+          "key": "buildType",
+          "value": "debug"
+        }
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "isTestModeEnabled": true
+      }
+    },
+    "UsCountryCode": {
+      "constraints": {
+        "usStore": {
+          "key": "storeCountry",
+          "value": "US"
+        }
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "countryCode": "US"
+      }
+    },
+    "CanadaCountryCode": {
+      "constraints": {
+        "canadaStore": {
+          "key": "storeCountry",
+          "value": "CA"
+        }
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "countryCode": "CA"
+      }
+    }
+  }
+}

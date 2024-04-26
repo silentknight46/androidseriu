@@ -1,0 +1,15 @@
+{
+  "config": {
+    "isDebugClipboardEnabled": false,
+    "isReworkEnabled": false
+  },
+  "overrides": {
+    "debugClipboard": {
+      "constraints": {"debugBuild": {"key": "buildType", "value": "debug"}},
+      "priority": 1,
+      "overrideConfig": {
+        "isDebugClipboardEnabled": true
+      }
+    }
+  }
+}

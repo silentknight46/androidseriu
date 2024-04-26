@@ -1,0 +1,28 @@
+{
+  "config": {
+    "breadcrumbsEnabled": true,
+    "breadcrumbsLevelOutputMapping": {},
+    "breadcrumbsMinLogLevel": "INFO",
+    "breadcrumbsTagLevels": {},
+    "dsn": "https://6bf401cd76094440a844eb84bc12f6f2@o1407395.ingest.sentry.io/4504962061434880",
+    "enableAppHangTracking": true,
+    "enableCaptureFailedRequests": true,
+    "enableTracing": true,
+    "enabled": true,
+    "environment": "production",
+    "extras": {},
+    "failedRequestStatusCodes": [[500, 599]],
+    "initialSampleRate": 1.0,
+    "initialTracesSampleRate": 1.0,
+    "isAutoSessionTrackingEnabled": false,
+    "isEnableUserInteractionBreadcrumbs": false,
+    "isEnableUserInteractionTracing": false,
+    "isFlowTrackingEnabled": true,
+    "profilingSampleRate": 0.0,
+    "sampleRate": 0.5,
+    "sessionTrackingInterval": "PT2M",
+    "shouldEnableViewHierarchyCapture": false,
+    "tags": {},
+    "tracesSampleRate": 0.01
+  }
+}

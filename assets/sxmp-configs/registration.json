@@ -1,0 +1,174 @@
+{
+  "config": {
+    "requiredLegalSteps": [],
+    "shouldShowPrivacyChoices": true,
+    "shouldShowLocatingYou": false,
+    "isReworkEnabled": false
+  },
+  "overrides": {
+    "usLegalConfig": {
+      "constraints": {
+        "usStore": {
+          "key": "storeCountry",
+          "value": "US"
+        }
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "requiredLegalSteps": [
+          {
+            "consentType": [
+              "Customer Agreement and Privacy policy",
+              "Offer and Renewal terms",
+              "Marketing offers"
+            ],
+            "title": {
+              "key": "iap_freetrial_price",
+              "dictionaryKey": "commerce"
+            },
+            "subtitle": {
+              "key": "iap_sublegal_autorenew_title_us_roku",
+              "dictionaryKey": "commerce"
+            },
+            "bodyText": {
+              "key": "iap_sublegal_autorenew_monthly_us_androidtv",
+              "dictionaryKey": "commerce"
+            },
+            "agreeButtonText": {
+              "key": "agreecontinue_cta",
+              "dictionaryKey": "commerce"
+            },
+            "linkText": {
+              "key": "agreementprivacy_us",
+              "dictionaryKey": "identity"
+            },
+            "mobileData": {
+              "text": {
+                "key": "iap_legal_accountsubscribe_autorenew_monthly_us",
+                "dictionaryKey": "commerce"
+              },
+              "isCheckRequired": true,
+              "hasCheckbox": true
+            }
+          }
+        ]
+      }
+    },
+    "canadaLegalConfig": {
+      "constraints": {
+        "canadaStore": {
+          "key": "storeCountry",
+          "value": "CA"
+        }
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "requiredLegalSteps": [
+          {
+            "consentType": ["Quebec Customer Agreement and Privacy policy"],
+            "title": {
+              "key": "agreement_privacy_header_ca",
+              "dictionaryKey": "identity"
+            },
+            "bodyText": {
+              "key": "agreement_privacy_body_ca",
+              "dictionaryKey": "identity"
+            },
+            "linkText": {
+              "key": "agreement_privacy_deeplink_ca",
+              "dictionaryKey": "identity"
+            },
+            "agreeButtonText": {
+              "key": "agreement_button_ca",
+              "dictionaryKey": "identity"
+            },
+            "mobileData": {
+              "text": {
+                "key": "policyagreement_legal_ca",
+                "dictionaryKey": "identity"
+              },
+              "isCheckRequired": true,
+              "hasCheckbox": true
+            }
+          },
+          {
+            "consentType": ["Personalization"],
+            "title": {
+              "key": "privacy_notice_title_ca",
+              "dictionaryKey": "identity"
+            },
+            "bodyText": {
+              "key": "dataagreement_legal_ca",
+              "dictionaryKey": "identity"
+            },
+            "agreeButtonText": {
+              "key": "agreement_button_ca",
+              "dictionaryKey": "identity"
+            },
+            "mobileData": {
+              "text": {
+                "key": "dataagreement_legal_ca",
+                "dictionaryKey": "identity"
+              },
+              "isCheckRequired": true,
+              "hasCheckbox": true
+            }
+          },
+          {
+            "consentType": ["Marketing offers"],
+            "title": {
+              "key": "email_policy_header_ca",
+              "dictionaryKey": "identity"
+            },
+            "bodyText": {
+              "key": "emailagreement_legal_ca",
+              "dictionaryKey": "identity"
+            },
+            "agreeButtonText": {
+              "key": "agreement_button_ca",
+              "dictionaryKey": "identity"
+            },
+            "skipButtonText": {
+              "key": "google_account_linking_deny_cta",
+              "dictionaryKey": "identity"
+            },
+            "mobileData": {
+              "text": {
+                "key": "email_policy_body_ca",
+                "dictionaryKey": "identity"
+              },
+              "isCheckRequired": false,
+              "hasCheckbox": true
+            }
+          },
+          {
+            "consentType": ["Offer and Renewal terms"],
+            "title": "{offerTitle}",
+            "subtitle": {
+              "key": "iap_sublegal_autorenew_title_ca_roku",
+              "dictionaryKey": "commerce"
+            },
+            "bodyText": {
+              "key": "iap_sublegal_autocontinue_monthly_ca_androidtv",
+              "dictionaryKey": "commerce"
+            },
+            "agreeButtonText": {
+              "key": "cta_agree_continue",
+              "dictionaryKey": "identity"
+            },
+            "mobileData": {
+              "text": {
+                "key": "iap_legal_accountsubscribe_autocontinue_monthly_ca",
+                "dictionaryKey": "commerce"
+              },
+              "isCheckRequired": true,
+              "hasCheckbox": false
+            }
+          }
+        ],
+        "shouldShowPrivacyChoices": false,
+        "shouldShowLocatingYou": true
+      }
+    }
+  }
+}

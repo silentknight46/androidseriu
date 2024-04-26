@@ -1,0 +1,72 @@
+{
+  "config": {
+    "playbackMappings": {
+      "nowPlayingImages": {
+        "full_player": {
+          "default": [
+            {
+              "purpose": "tile",
+              "aspectRatio": "aspect_1x1"
+            },
+            {
+              "purpose": "logo",
+              "aspectRatio": "aspect_1x1"
+            },
+            {
+              "purpose": "logo",
+              "aspectRatio": "aspect_5x4"
+            }
+          ]
+        },
+        "mini_player": {
+          "default": [
+            {
+              "purpose": "tile",
+              "aspectRatio": "aspect_1x1"
+            },
+            {
+              "purpose": "logo",
+              "aspectRatio": "aspect_1x1"
+            },
+            {
+              "purpose": "logo",
+              "aspectRatio": "aspect_5x4"
+            }
+          ]
+        },
+        "full_player_logo": {
+          "default": [
+            {
+              "purpose": "logo",
+              "aspectRatio": "aspect_5x4"
+            }
+          ]
+        },
+        "overflow_menu": {
+          "default": [
+            {
+              "purpose": "tile",
+              "aspectRatio": "aspect_1x1"
+            },
+            {
+              "purpose": "logo",
+              "aspectRatio": "aspect_1x1"
+            }
+          ]
+        },
+        "media_notification": {
+          "default": [
+            {
+              "purpose": "tile",
+              "aspectRatio": "aspect_1x1"
+            },
+            {
+              "purpose": "logo",
+              "aspectRatio": "aspect_1x1"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

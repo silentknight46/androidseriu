@@ -1,0 +1,40 @@
+{
+  "config": {
+    "isForceUpdated": false,
+    "title": {"key": "forced_update_title", "dictionaryKey": "experience"},
+    "subtitle": {"key": "forced_update_subtitle", "dictionaryKey": "experience"},
+    "button": null
+  },
+  "overrides": {
+    "playStore": {
+      "constraints": {
+        "googleAppId": {
+          "key": "appId",
+          "value": "com.sirius"
+        }
+      },
+      "priority": 2,
+      "overrideConfig": {
+        "button": {
+          "text": {"key": "forced_update_button", "dictionaryKey": "experience"},
+          "url": "https://play.google.com/store/apps/details?id=com.sirius"
+        }
+      }
+    },
+    "useAmazonAppstoreWhenAmazonFlavor": {
+      "constraints": {
+        "amazonAppId": {
+          "key": "appId",
+          "value": "com.amazon.rialto.cordova.webapp.webapp7b743ed0e02e48178fb2bf55dbb38517"
+        }
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "button": {
+          "text": {"key": "forced_update_button", "dictionaryKey": "experience"},
+          "url": "amzn://apps/android?asin=B00DMJKGDW&intent=app_update"
+        }
+      }
+    }
+  }
+}

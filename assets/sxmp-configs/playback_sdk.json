@@ -1,0 +1,168 @@
+{
+  "config": {
+    "isPictureInPictureEnabled": false,
+    "isTuneStartEnabled": true,
+    "isEncryptDecryptionKeysEnabled": false,
+    "downloads": {
+      "maxSimultaneousDownloads": 3,
+      "minRetries": 4,
+      "newEpisodesPollingInterval": "PT120M",
+      "isNewEpisodePollingEnabled": true,
+      "soonExpirationBaselineDays": 7,
+      "gracePeriodAfterExpirationDate": "P30D",
+      "isEncryptedDownloadsEnabled": true,
+      "keyRetrievalExpiration": "PT15S",
+      "isLocalProgressCachingEnabled": true,
+      "audioDownloadQualityBitsPerSecond": {
+        "maximum": 281600,
+        "high": 105600,
+        "normal": 70400
+      },
+      "videoDownloadQualityResolution": {
+        "maximum": {
+          "width": 1920,
+          "height": 1080
+        },
+        "high": {
+          "width": 960,
+          "height": 540
+        },
+        "normal": {
+          "width": 640,
+          "height": 360
+        }
+      }
+    },
+    "crossfadeConfig": {
+      "isThreeWayCrossFadeEnabled": true,
+      "isSimpleFadeEnabled": false,
+      "prepareBeforeCrossfadeS": 30,
+      "delayToTransitionAfterPauseMs": 150
+    },
+    "convivaConfig": {
+      "isConvivaEnabled": true,
+      "productionKey": "05efe2edfc6098a8dc4a449c8698ed640b837b5f",
+      "testEnvironmentKey": "cd2d73e4f9f923bccf1fc1b1dc8a96edbf71aa14",
+      "testEnvironmentURL": "https://siriusxm-test.testonly.conviva.com",
+      "environment": "test",
+      "heartbeatIntervalMs": 30000,
+      "isPlaybackErrorReportingEnabled": true,
+      "metadata": {}
+    },
+    "bufferDurationsConfig": {
+      "backBufferDurationS": 0,
+      "isRetainBackBufferFromKeyframeEnabled": false,
+      "minBufferS": 50,
+      "maxBufferS": 50,
+      "bufferForPlaybackMs": 2500,
+      "bufferForPlaybackAfterRebufferMs": 5000,
+      "maxBufferByteSize": -1
+    },
+    "loadErrorHandlingConfig": {
+      "minimumLoadableRetryCount": 15,
+      "errorCountDelayMultiplierMs": 1000,
+      "maxSingleRetryDelayMs": 5000,
+      "maxRetuneRetryCount": 3
+    },
+    "streamingQualityConfig": {
+      "audioQualityBitsPerSecond": {
+        "maximum": 281600,
+        "high": 105600,
+        "normal": 70400
+      },
+      "videoQualityResolution": {
+        "maximum": {
+          "width": 1920,
+          "height": 1080
+        },
+        "high": {
+          "width": 960,
+          "height": 540
+        },
+        "normal": {
+          "width": 640,
+          "height": 360
+        }
+      }
+    },
+    "liveUpdate": {
+      "pollingIntervalSeconds": 50,
+      "lookAheadSeconds": 100
+    },
+    "androidAutoConfig": {
+      "delayToShowCustomErrorMessageMs": 750
+    },
+    "cast": {
+      "receiverId": "",
+      "environment": ""
+    },
+    "pivotableContentTypes": [
+      "artist-station",
+      "channel-xtra",
+      "episode-audio"
+    ],
+    "wakelockBehaviorWhilePlaying": "UserChoice",
+    "skipAvailableTimeDefault": 60,
+    "isPauseVodOnLifecyclePauseEnabled": false,
+    "isHandleAudioBecomingNoisyEnabled": true,
+    "timeOutForDecryptionKeyFetchAfterManifestLoadMs": 15000,
+    "percentageCompletionForPeek": 0.3
+  },
+  "overrides": {
+    "convivaEnvironment": {
+      "constraints": {
+        "debugBuild": {
+          "key": "buildType",
+          "value": "release"
+        }
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "convivaConfig": {
+          "environment": "production"
+        }
+      }
+    },
+    "enablePip": {
+      "constraints": {"deviceSupportsPip": {"key": "hasSystemFeature", "value": "android.software.picture_in_picture"}},
+      "priority": 1,
+      "overrideConfig": {"isPictureInPictureEnabled": true}
+    },
+    "androidTvWakelock": {
+      "constraints": {"tv": {"key": "hasSystemFeature", "value": "android.hardware.type.television"}},
+      "priority": 1,
+      "overrideConfig": {"wakelockBehaviorWhilePlaying": "Never"}
+    },
+    "fireTvWakelock": {
+      "constraints": {"fireTv": {"key": "hasSystemFeature", "value": "amazon.hardware.fire_tv"}},
+      "priority": 2,
+      "overrideConfig": {"wakelockBehaviorWhilePlaying": "Always"}
+    },
+    "loadErrorHandlingConfig": {
+      "constraints": {
+        "tv": {
+          "key": "hasSystemFeature",
+          "value": "android.hardware.type.television"
+        }
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "loadErrorHandlingConfig": {
+          "minimumLoadableRetryCount": 3
+        }
+      }
+    },
+    "enablePauseVodOnLifecyclePauseForTv": {
+      "constraints": {
+        "isTv": {
+          "key": "hasSystemFeature",
+          "value": "android.software.leanback"
+        }
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "isPauseVodOnLifecyclePauseEnabled": true
+      }
+    }
+  }
+}

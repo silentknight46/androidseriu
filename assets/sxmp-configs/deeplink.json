@@ -1,0 +1,154 @@
+{
+  "config": {
+    "replacements": {
+      "{homeEntityId}": "a16c8978-e242-48a4-a6ac-c863b23dc6eb",
+      "{homeEntityType}": "home",
+      "{libraryEntityId}": "2f5dbba0-c1e6-48d2-8204-2c54ce3ff847",
+      "{libraryEntityType}": "library",
+      "{searchEntityId}": "9f1b336c-e528-4aa2-8268-10d630e74853",
+      "{searchEntityType}": "search",
+      "{musicCategoryEntityId}": "97f91309-0869-4d6a-b737-f1520e1089fd",
+      "{musicCategoryEntityType}": "home",
+      "{talkCategoryEntityId}": "7e4ec86d-9436-4667-822c-ce7110844ace",
+      "{talkCategoryEntityType}": "home",
+      "{sportCategoryEntityId}": "32f44868-bf09-4ff9-ae7a-f27c2e4f01e9",
+      "{sportCategoryEntityType}": "home"
+    },
+    "matchers": {
+      "login": {
+        "pathPattern": "/login/(.*)",
+        "replacement": "/login/$1"
+      },
+      "register": {
+        "pathPattern": "/register/(.*)",
+        "replacement": "/register/$1"
+      },
+      "home": {
+        "pathPattern": "/home/for-you?$",
+        "replacement": "/home-content/{homeEntityType}/{homeEntityId}"
+      },
+      "search": {
+        "pathPattern": "/search",
+        "replacement": "/search-content/{searchEntityType}/{searchEntityId}"
+      },
+      "downloads": {
+        "pathPattern": "/my-library/downloads",
+        "replacement": "/library-content/{libraryEntityType}/{libraryEntityId}",
+        "addQueryParams": {
+          "filter": "downloads"
+        },
+        "priority": 2
+      },
+      "library": {
+        "pathPattern": "/my-library",
+        "replacement": "/library-content/{libraryEntityType}/{libraryEntityId}",
+        "priority": 1
+      },
+      "homeAppFlip" : {
+        "pathPattern": "$?/vendor/([a-z]+)?",
+        "replacement": "/home-content/{homeEntityType}/{homeEntityId}",
+        "addQueryParams": {
+          "isAppFlip": "true"
+         }
+    },
+      "homeCategories": {
+        "pathPattern": "/home/(?>discover|home)/([\\w-]+)$",
+        "replacement": "/home-content/{homeEntityType}/{homeEntityId}/$1"
+      },
+      "homeTab": {
+        "pathPattern": "/home",
+        "replacement": "/home-content/{homeEntityType}/{homeEntityId}",
+        "priority": 1
+      },
+      "homeForYouTab": {
+        "pathPattern": "\/home\/for-you\/([\\w-]+)$",
+        "replacement": "/home-content/{homeEntityType}/$1"
+      },
+      "musicTab": {
+        "pathPattern": "/home/music",
+        "replacement": "/home-content/{homeEntityType}/{homeEntityId}",
+        "priority": 1,
+        "addQueryParams": {
+          "filter": "{musicCategoryEntityId}"
+        }
+      },
+      "talkTab": {
+        "pathPattern": "/home/talk-and-podcast",
+        "replacement": "/home-content/{homeEntityType}/{homeEntityId}",
+        "priority": 1,
+        "addQueryParams": {
+          "filter": "{talkCategoryEntityId}"
+        }
+      },
+      "sportsTab": {
+        "pathPattern": "/home/sports",
+        "replacement": "/home-content/{homeEntityType}/{homeEntityId}",
+        "priority": 1,
+        "addQueryParams": {
+          "filter": "{sportCategoryEntityId}"
+        }
+      },
+      "settings": {
+        "pathPattern": "/settings/(.*)",
+        "replacement": "/settings/$1"
+      },
+      "genericEntityPages": {
+        "pathPattern": "/([\\w-]+)/(?>[\\w-]+)/([\\w-]+)",
+        "replacement": "/home-content/$1/$2",
+        "priority": -1,
+        "addQueryParams": {
+          "autoPlay": "true"
+        }
+      }
+    },
+    "shouldValidateSupportedDeepLinks": false
+  },
+  "overrides": {
+    "debug": {
+      "constraints": {
+        "debugBuild": {
+          "key": "buildType",
+          "value": "debug"
+        }
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "shouldValidateSupportedDeepLinks": true
+      }
+    },
+    "tvCategories": {
+      "constraints": {
+        "tv": {
+          "key": "hasSystemFeature",
+          "value": "android.software.leanback"
+        }
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "matchers": {
+          "musicTab": {
+            "pathPattern": "/home/music",
+            "replacement": "/musicCategory-content/{musicCategoryEntityType}/{musicCategoryEntityId}",
+            "priority": 1,
+            "addQueryParams": {
+              "filter": "{musicCategoryEntityId}"
+            }
+          },
+          "talkTab": {
+            "pathPattern": "/home/talk-and-podcast",
+            "replacement": "/talkCategory-content/{talkCategoryEntityType}/{talkCategoryEntityId}",
+            "priority": 1,
+            "addQueryParams": {
+              "filter": "{talkCategoryEntityId}"
+            }
+          },
+          "sportsTab": {
+            "pathPattern": "/home/sports",
+            "replacement": "/sportCategory-content/{sportCategoryEntityType}/{sportCategoryEntityId}",
+            "priority": 1
+          }
+        }
+      }
+    }
+  }
+}

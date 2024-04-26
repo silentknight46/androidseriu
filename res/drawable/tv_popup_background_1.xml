@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="112.0dip" android:width="200.0dip" android:viewportWidth="1920.0" android:viewportHeight="1080.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M0,0h1920v1080h-1920z" />
+        <path android:fillColor="#ff111314" android:pathData="M0,0h1920v1080h-1920z" />
+        <group>
+            <clip-path android:pathData="M0,0h1920v1080h-1920z" />
+            <group>
+                <clip-path android:pathData="M166.1,-284L1826.9,-284A166.1,166.1 0,0 1,1993 -117.9L1993,967.2A166.1,166.1 0,0 1,1826.9 1133.3L166.1,1133.3A166.1,166.1 0,0 1,0 967.2L0,-117.9A166.1,166.1 0,0 1,166.1 -284z" />
+                <path android:fillColor="#ff111314" android:pathData="M166.1,-284L1826.9,-284A166.1,166.1 0,0 1,1993 -117.9L1993,967.2A166.1,166.1 0,0 1,1826.9 1133.3L166.1,1133.3A166.1,166.1 0,0 1,0 967.2L0,-117.9A166.1,166.1 0,0 1,166.1 -284z" />
+                <path android:fillColor="#ff934745" android:pathData="M199.6,332C166.4,39.8 482.8,-236 906.2,-284.1C1329.7,-332.2 1786.5,475.8 1819.7,767.9C1852.8,1060 1412.7,353.7 989.2,401.8C565.8,449.9 232.8,624.1 199.6,332Z" />
+                <path android:fillColor="@drawable/$tv_popup_background_1__0" android:pathData="M1436.9,187.5C1559.8,325.2 1566.8,430.2 1628.2,591.6C1746.6,903 1659.4,1107.6 1800.1,1413.2C2087.2,2036.8 2583.6,73.9 1877.5,-285C1433.6,-510.5 134.6,-564.6 526.2,-285C682.6,-173.3 832.3,-185.1 1008.9,-94.2C1191.2,-0.4 1311.5,47 1436.9,187.5Z" />
+                <path android:fillColor="#ff644040" android:pathData="M331.8,476.7C528.2,460.7 656.6,375.7 782.1,178.9C1036.1,-219.9 -438.2,-339.1 -234.6,96.7C-106.3,371.5 81,497.1 331.8,476.7Z" />
+                <path android:fillColor="#ff139da6" android:pathData="M326.3,213.9C489.5,203.2 596,142.9 699.6,2.8C909.4,-281.1 -316.7,-371.3 -146,-59.4C-38.3,137.3 117.8,227.6 326.3,213.9Z" />
+            </group>
+        </group>
+    </group>
+</vector>

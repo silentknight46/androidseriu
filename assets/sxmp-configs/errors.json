@@ -1,0 +1,21 @@
+{
+  "config": {
+    "isDevMode": false,
+    "defaultErrorMessage": {"dictionaryKey": "errors", "key": "general_error_failure_to_load_body_desc"},
+    "offlineErrorMessage": {"dictionaryKey": "errors", "key": "subtext_check_connection_offline_desc"}
+  },
+  "overrides": {
+    "debug": {
+      "constraints": {
+        "debugBuild": {
+          "key": "buildType",
+          "value": "debug"
+        }
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "isDevMode": true
+      }
+    }
+  }
+}

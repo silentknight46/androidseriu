@@ -1,0 +1,104 @@
+{
+  "intentFilters": [
+    {
+      "schemes": ["sxm"],
+      "hosts": ["player"],
+      "pathExamplesId": "player"
+    },
+    {
+      "schemes": ["siriusxm"],
+      "hosts": [
+        "player.siriusxm.com",
+        "player.siriusxm.ca"
+      ],
+      "isNonNavGraph": true
+    },
+    {
+      "schemes": [
+        "http",
+        "https"
+      ],
+      "hosts": [
+        "app.siriusxm.us",
+        "app.siriusxm.ca",
+        "siriusxm.com",
+        "siriusxm.ca",
+        "www.siriusxm.com",
+        "www.siriusxm.ca",
+        "can.siriusxm.com"
+      ],
+      "paths": ["/player"],
+      "pathExamplesId": "player"
+    },
+    {
+      "schemes": ["https"],
+      "hosts": ["sxm.test-app.link", "sxm-alternate.test-app.link"],
+      "isNonNavGraph": true
+    },
+    {
+      "schemes": ["https"],
+      "hosts": ["sxm.app.link", "sxm-alternate.app.link"],
+      "isNonNavGraph": true
+    },
+    {
+      "schemes": ["sxm"],
+      "hosts": ["tokenTransfer"],
+      "isNonNavGraph": true
+    },
+    {
+      "schemes": ["sxm"],
+      "paths": ["/appflip/vendor"],
+      "pathExamplesId": "appflip"
+    },
+    {
+      "schemes": ["http", "https"],
+      "hosts": ["www.siriusxm.com"],
+      "paths": ["/appflip/vendor"],
+      "pathExamplesId": "appflip"
+    }
+  ],
+  "pathExamples": [
+    {
+      "id": "player",
+      "examples": [
+        "/home/for-you",
+        "/home/for-you/a16c8978-e242-48a4-a6ac-c863b23dc6eb",
+        "/home/music",
+        "/home/music/97f91309-0869-4d6a-b737-f1520e1089fd",
+        "/home/talk-and-podcast",
+        "/home/talk-and-podcast/7e4ec86d-9436-4667-822c-ce7110844ace",
+        "/home/sports",
+        "/home/sports/32f44868-bf09-4ff9-ae7a-f27c2e4f01e9",
+        "/search",
+        "/my-library",
+        "/team/entity/046ec1b0-8664-3c0d-37ab-426b43113099",
+        "/league/entity/2e776e1a-81bd-3f66-89b4-f6ffbcfdcdcc",
+        "/event/entity/0484fc33-66b8-9aa1-7909-0ace3dbc6c73",
+        "/talent/entity/fce122a7-feec-4864-91db-64661998e6e7",
+        "/show/entity/1b99b23c-93e5-8873-42c4-1fa3bf85d15f",
+        "/show-podcast/entity/dda7a483-bb47-3d5f-a075-e4d2d4b58117",
+        "/brand/entity/ed806e43-b82c-4d90-bfaa-48f77341330e",
+        "/curated-grouping/entity/403ab6a5-d3c9-4c2a-a722-a94a6a5fd056",
+        "/genre/entity/026f7d27-5e9b-42c9-b9a5-aafb4ad27565",
+        "/experience/slugname/a80d1ea0-6501-43b4-898d-c3f50b76d7d8",
+        "/channel-linear/entity/ac00ab0c-0a60-63bb-32fe-44e8b9be24fd",
+        "/artist-station/entity/52ec2f05-cb1e-3e75-bc70-067bbdd45e5d",
+        "/channel-extra/entity/d701b999-973e-4924-cfd9-bfb71bd4c6c5",
+        "/episode-audio/entity/e2aa7fc0-de4a-3098-2d31-f1a7726acae0",
+        "/episode-video/entity/d98567f5-9991-3698-a594-cd5544d54f78",
+        "/episode-podcast/entity/94e4623e-8730-32bf-b7e6-5db532810e95",
+        "/settings",
+        "/settings/notifications",
+        "/settings/subscription",
+        "/settings/terms-policies"
+      ]
+    },
+    {
+      "id": "appflip",
+      "examples": [
+        "/google",
+        "/alexa"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "config": {
+    "defaultGraphRoute": "home",
+    "startDestination": "home",
+    "menuItems": [
+      {
+        "route": "home",
+        "startDestination": "contentRoot/home/a16c8978-e242-48a4-a6ac-c863b23dc6eb",
+        "labelKey": "nav_home",
+        "selectedIcon": "HomeFilled",
+        "unselectedIcon": "HomeOutlined"
+      },
+      {
+        "route": "search",
+        "startDestination": "contentRoot/search/9f1b336c-e528-4aa2-8268-10d630e74853",
+        "labelKey": "nav_search",
+        "selectedIcon": "SearchFilled",
+        "unselectedIcon": "SearchOutlined"
+      },
+      {
+        "route": "library",
+        "startDestination": "contentRoot/library/2f5dbba0-c1e6-48d2-8204-2c54ce3ff847",
+        "labelKey": "nav_library",
+        "selectedIcon": "LibraryFilled",
+        "unselectedIcon": "LibraryOutlined"
+      }
+    ]
+  },
+  "overrides": {
+    "tvMenu": {
+      "constraints": {
+        "tv": {
+          "key": "hasSystemFeature",
+          "value": "android.software.leanback"
+        }
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "menuItems": [
+          {
+            "route": "library",
+            "startDestination": "contentRoot/library/2f5dbba0-c1e6-48d2-8204-2c54ce3ff847",
+            "labelKey": "nav_library",
+            "selectedIcon": "LibraryFilled",
+            "unselectedIcon": "LibraryOutlined"
+          },
+          {
+            "route": "search",
+            "startDestination": "contentRoot/search/9f1b336c-e528-4aa2-8268-10d630e74853",
+            "labelKey": "nav_search",
+            "selectedIcon": "SearchFilled",
+            "unselectedIcon": "SearchOutlined"
+          },
+          {
+            "route": "home",
+            "startDestination": "contentRoot/home/a16c8978-e242-48a4-a6ac-c863b23dc6eb",
+            "labelKey": "nav_home",
+            "selectedIcon": "HomeFilled",
+            "unselectedIcon": "HomeOutlined"
+          },
+          {
+            "route": "musicCategory",
+            "startDestination": "contentRoot/home/97f91309-0869-4d6a-b737-f1520e1089fd",
+            "labelKey": "nav_music",
+            "selectedIcon": "MusicFilled",
+            "unselectedIcon": "MusicOutlined"
+          },
+          {
+            "route": "talkCategory",
+            "startDestination": "contentRoot/home/7e4ec86d-9436-4667-822c-ce7110844ace",
+            "labelKey": "nav_talk",
+            "selectedIcon": "TalkFilled",
+            "unselectedIcon": "TalkOutlined"
+          },
+          {
+            "route": "sportCategory",
+            "startDestination": "contentRoot/home/32f44868-bf09-4ff9-ae7a-f27c2e4f01e9",
+            "labelKey": "nav_sports",
+            "selectedIcon": "SportsFilled",
+            "unselectedIcon": "SportsOutlined"
+          },
+          {
+            "route": "settingsRoute",
+            "startDestination": "settings",
+            "labelKey": "nav_settings",
+            "selectedIcon": "SettingsFilled",
+            "unselectedIcon": "SettingsOutlined",
+            "alignment": "bottom"
+          }
+        ]
+      }
+    }
+  }
+}

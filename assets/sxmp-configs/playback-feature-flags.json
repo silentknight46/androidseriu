@@ -1,0 +1,9 @@
+{
+  "config": {
+    "isTranscriptHighlightEnabled": false,
+    "isPivotingEnabled": true,
+    "isScubberClickAreasEnabled": true,
+    "isSegmentsListButtonEnabled": true,
+    "isRefactorEnabled": false
+  }
+}

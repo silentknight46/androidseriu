@@ -1,0 +1,70 @@
+{
+  "config": {
+    "isChangeOfferEnabled": true,
+    "isIapFlowEnabled": true,
+    "isSKUDebugModeEnabled": false,
+    "isDevSubscriptionToolEnabled": false,
+    "manageCancelInfos": {
+      "AMAZON": {"key": "cancel_firetv", "dictionaryKey": "commerce"},
+      "APPLE": {"key": "cancel_tvos", "dictionaryKey": "commerce"},
+      "GOOGLE": {"key": "cancel_androidtv", "dictionaryKey": "commerce"},
+      "ROKU": {"key": "cancel_roku", "dictionaryKey": "commerce"}
+    },
+    "manageCancelInfoFallback": {"key": "managesub_billingprovider_text", "dictionaryKey": "commerce"},
+    "manageFallbackUrl": {"value": {"key": "managesub_billing", "dictionaryKey": "commerce"}},
+    "manageUrls": {
+      "AMAZON": {"value": {"key": "iap_amazonplatform_url", "dictionaryKey": "commerce"}},
+      "APPLE": {"value": {"key": "iap_iosplatform_url", "dictionaryKey": "commerce"}},
+      "GOOGLE": {"value": {"key": "iap_androidplatform_url", "dictionaryKey": "commerce"}},
+      "ROKU": {"value": {"key": "iap_rokuplatform_url", "dictionaryKey": "commerce"}}
+    },
+    "platformNames": {
+      "AMAZON": {"key": "billing_platform_amazon", "dictionaryKey": "commerce"},
+      "APPLE": {"key": "billing_platform_apple", "dictionaryKey": "commerce"},
+      "GOOGLE": {"key": "billing_platform_google", "dictionaryKey": "commerce"},
+      "ROKU": {"key": "billing_platform_roku", "dictionaryKey": "commerce"}
+    },
+    "platformTypes": {
+      "AMAZON": "AtlasIap",
+      "APPLE": "AtlasIap",
+      "CHARON": "LegacyIap",
+      "GOOGLE": "AtlasIap",
+      "ROKU": "AtlasIap"
+    },
+    "storefrontIdentification": {
+      "shouldUsePlayBillingConfig": false,
+      "allowedCountryCodes": ["CA", "US"],
+      "sku": "com.atlas.dummy.as.subscription",
+      "forcedStoreFront": null,
+      "fallback": "US",
+      "mapping": {
+        "1000000": "US",
+        "2000000": "CA"
+      }
+    },
+    "thirdPartyBillingPattern": "^(US|CA)_13500:.+$"
+  },
+  "overrides": {
+    "debugBuild": {
+      "constraints": {
+        "debugConfig": {"key": "buildType", "value": "debug"}
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "isDevSubscriptionToolEnabled": true
+      }
+    },
+    "amazonAppstoreSpecifics": {
+      "constraints": {
+        "amazonAppId": {
+          "key": "appId",
+          "value": "com.amazon.rialto.cordova.webapp.webapp7b743ed0e02e48178fb2bf55dbb38517"
+        }
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "isChangeOfferEnabled": false
+      }
+    }
+  }
+}

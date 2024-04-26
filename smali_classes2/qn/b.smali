@@ -1,0 +1,737 @@
+.class public final Lqn/b;
+.super Lkotlin/jvm/internal/l;
+.source "SourceFile"
+
+# interfaces
+.implements Lol/a;
+
+
+# instance fields
+.field public final synthetic d:I
+
+.field public final synthetic e:Ljava/lang/String;
+
+
+# direct methods
+.method public synthetic constructor <init>(Ljava/lang/String;I)V
+    .locals 0
+
+    .line 1
+    iput p2, p0, Lqn/b;->d:I
+
+    .line 2
+    .line 3
+    iput-object p1, p0, Lqn/b;->e:Ljava/lang/String;
+
+    .line 4
+    .line 5
+    const/4 p1, 0x0
+
+    .line 6
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/l;-><init>(I)V
+
+    .line 7
+    .line 8
+    .line 9
+    return-void
+    .line 10
+    .line 11
+    .line 12
+    .line 13
+    .line 14
+    .line 15
+    .line 16
+    .line 17
+    .line 18
+    .line 19
+    .line 20
+    .line 21
+    .line 22
+    .line 23
+    .line 24
+    .line 25
+    .line 26
+    .line 27
+    .line 28
+    .line 29
+    .line 30
+    .line 31
+    .line 32
+    .line 33
+    .line 34
+    .line 35
+    .line 36
+    .line 37
+    .line 38
+    .line 39
+    .line 40
+    .line 41
+    .line 42
+    .line 43
+    .line 44
+    .line 45
+    .line 46
+    .line 47
+    .line 48
+    .line 49
+    .line 50
+    .line 51
+    .line 52
+    .line 53
+    .line 54
+    .line 55
+    .line 56
+    .line 57
+    .line 58
+    .line 59
+    .line 60
+    .line 61
+    .line 62
+    .line 63
+    .line 64
+    .line 65
+    .line 66
+    .line 67
+.end method
+
+
+# virtual methods
+.method public final bridge synthetic invoke()Ljava/lang/Object;
+    .locals 1
+
+    iget v0, p0, Lqn/b;->d:I
+
+    packed-switch v0, :pswitch_data_0
+
+    .line 156
+    invoke-virtual {p0}, Lqn/b;->invoke()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 157
+    :pswitch_0
+    invoke-virtual {p0}, Lqn/b;->invoke()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 158
+    :pswitch_1
+    invoke-virtual {p0}, Lqn/b;->invoke()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 159
+    :pswitch_2
+    invoke-virtual {p0}, Lqn/b;->invoke()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 160
+    :pswitch_3
+    invoke-virtual {p0}, Lqn/b;->invoke()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 161
+    :pswitch_4
+    invoke-virtual {p0}, Lqn/b;->invoke()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 162
+    :pswitch_5
+    invoke-virtual {p0}, Lqn/b;->invoke()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 163
+    :pswitch_6
+    invoke-virtual {p0}, Lqn/b;->invoke()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 164
+    :pswitch_7
+    invoke-virtual {p0}, Lqn/b;->invoke()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 165
+    :pswitch_8
+    invoke-virtual {p0}, Lqn/b;->invoke()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 166
+    :pswitch_9
+    invoke-virtual {p0}, Lqn/b;->invoke()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 167
+    :pswitch_a
+    invoke-virtual {p0}, Lqn/b;->invoke()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 168
+    :pswitch_b
+    invoke-virtual {p0}, Lqn/b;->invoke()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 169
+    :pswitch_c
+    invoke-virtual {p0}, Lqn/b;->invoke()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 170
+    :pswitch_d
+    invoke-virtual {p0}, Lqn/b;->invoke()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 171
+    :pswitch_e
+    invoke-virtual {p0}, Lqn/b;->invoke()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 172
+    :pswitch_f
+    invoke-virtual {p0}, Lqn/b;->invoke()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 173
+    :pswitch_10
+    invoke-virtual {p0}, Lqn/b;->invoke()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 174
+    :pswitch_11
+    invoke-virtual {p0}, Lqn/b;->invoke()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 175
+    :pswitch_12
+    invoke-virtual {p0}, Lqn/b;->invoke()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 176
+    :pswitch_13
+    invoke-virtual {p0}, Lqn/b;->invoke()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 177
+    :pswitch_14
+    invoke-virtual {p0}, Lqn/b;->invoke()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 178
+    :pswitch_15
+    invoke-virtual {p0}, Lqn/b;->invoke()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 179
+    :pswitch_16
+    invoke-virtual {p0}, Lqn/b;->invoke()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 180
+    :pswitch_17
+    invoke-virtual {p0}, Lqn/b;->invoke()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 181
+    :pswitch_18
+    invoke-virtual {p0}, Lqn/b;->invoke()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 182
+    :pswitch_19
+    invoke-virtual {p0}, Lqn/b;->invoke()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 183
+    :pswitch_1a
+    invoke-virtual {p0}, Lqn/b;->invoke()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 184
+    :pswitch_1b
+    invoke-virtual {p0}, Lqn/b;->invoke()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 185
+    :pswitch_1c
+    invoke-virtual {p0}, Lqn/b;->invoke()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    nop
+
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_1c
+        :pswitch_1b
+        :pswitch_1a
+        :pswitch_19
+        :pswitch_18
+        :pswitch_17
+        :pswitch_16
+        :pswitch_15
+        :pswitch_14
+        :pswitch_13
+        :pswitch_12
+        :pswitch_11
+        :pswitch_10
+        :pswitch_f
+        :pswitch_e
+        :pswitch_d
+        :pswitch_c
+        :pswitch_b
+        :pswitch_a
+        :pswitch_9
+        :pswitch_8
+        :pswitch_7
+        :pswitch_6
+        :pswitch_5
+        :pswitch_4
+        :pswitch_3
+        :pswitch_2
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
+.end method
+
+.method public final invoke()Ljava/lang/String;
+    .locals 8
+
+    iget v0, p0, Lqn/b;->d:I
+
+    const-string v1, "Deeplink "
+
+    const-string v2, "Store location already known: "
+
+    const-string v3, " as fallback"
+
+    const-string v4, "Could not retrieve valid store location, using "
+
+    const-string v5, "Purchase for "
+
+    const-string v6, "Store location is: "
+
+    iget-object v7, p0, Lqn/b;->e:Ljava/lang/String;
+
+    packed-switch v0, :pswitch_data_0
+
+    const-string v0, "SiriusXM app was not able to handle an ACTION_VIEW intent with this URL: "
+
+    const-string v1, " "
+
+    .line 1
+    invoke-static {v0, v7, v1}, La0/x;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    :pswitch_0
+    const-string v0, "Trying to open link: "
+
+    .line 2
+    invoke-static {v0, v7}, Lk0/t4;->l(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 3
+    :pswitch_1
+    invoke-static {v7}, Lbd/r1;->b(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, "Unknown EpisodeStateType: "
+
+    .line 4
+    invoke-static {v1, v0}, Lk0/t4;->l(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 5
+    :pswitch_2
+    invoke-static {v7}, Ljd/e1;->b(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, "Unknown ScoreState: "
+
+    .line 6
+    invoke-static {v1, v0}, Lk0/t4;->l(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    :pswitch_3
+    const-string v0, "Token -> "
+
+    .line 7
+    invoke-static {v0, v7}, Lk0/t4;->l(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    :pswitch_4
+    const-string v0, " requires acknowledgment"
+
+    .line 8
+    invoke-static {v5, v7, v0}, La0/x;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    :pswitch_5
+    const-string v0, " is already acknowledged"
+
+    .line 9
+    invoke-static {v5, v7, v0}, La0/x;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 10
+    :pswitch_6
+    invoke-static {v4, v7, v3}, La0/x;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    :pswitch_7
+    const-string v0, "Forcing store location to "
+
+    .line 11
+    invoke-static {v0, v7}, Lk0/t4;->l(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 12
+    :pswitch_8
+    invoke-static {v2, v7}, Lk0/t4;->l(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 13
+    :pswitch_9
+    invoke-static {v6, v7}, Lk0/t4;->l(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    :pswitch_a
+    const-string v0, "Play Billing config found: "
+
+    .line 14
+    invoke-static {v0, v7}, Lk0/t4;->l(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 15
+    :pswitch_b
+    invoke-static {v6, v7}, Lk0/t4;->l(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    :pswitch_c
+    const-string v0, "Requesting details ("
+
+    const-string v1, ") to identify the billing country"
+
+    .line 16
+    invoke-static {v0, v7, v1}, La0/x;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    :pswitch_d
+    const-string v0, "Starting purchase flow for "
+
+    .line 17
+    invoke-static {v0, v7}, Lk0/t4;->l(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 18
+    :pswitch_e
+    invoke-static {v4, v7, v3}, La0/x;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 19
+    :pswitch_f
+    invoke-static {v6, v7}, Lk0/t4;->l(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    :pswitch_10
+    const-string v0, "UserData marketplace found: "
+
+    .line 20
+    invoke-static {v0, v7}, Lk0/t4;->l(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 21
+    :pswitch_11
+    invoke-static {v2, v7}, Lk0/t4;->l(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    :pswitch_12
+    const-string v0, "Sentry installationId: "
+
+    .line 22
+    invoke-static {v0, v7}, Lk0/t4;->l(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    :pswitch_13
+    const-string v0, "Removing Sentry.removeTag("
+
+    const-string v1, ")"
+
+    .line 23
+    invoke-static {v0, v7, v1}, La0/x;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    :pswitch_14
+    const-string v0, "sentryInitializer setUser id = "
+
+    .line 24
+    invoke-static {v0, v7}, Lk0/t4;->l(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    :pswitch_15
+    const-string v0, "Looking for deeplink matcher for "
+
+    .line 25
+    invoke-static {v0, v7}, Lk0/t4;->l(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    :pswitch_16
+    const-string v0, " (as defined in supported_deeplinks.json) cannot be converted to BranchEvent url."
+
+    .line 26
+    invoke-static {v1, v7, v0}, La0/x;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    :pswitch_17
+    const-string v0, " (as defined in supported_deeplinks.json) cannot be resolved. Did you add the correct intent-filter to the AndroidManifest?"
+
+    .line 27
+    invoke-static {v1, v7, v0}, La0/x;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    :pswitch_18
+    const-string v0, "Deeplink not supported by navigation graph. Navigating to "
+
+    const-string v1, " and opening deeplink in web"
+
+    .line 28
+    invoke-static {v0, v7, v1}, La0/x;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    :pswitch_19
+    const-string v0, "Navigating to "
+
+    const-string v1, " and opening web-only link"
+
+    .line 29
+    invoke-static {v0, v7, v1}, La0/x;->m(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    :pswitch_1a
+    const-string v0, "No pending deeplink. Navigating to "
+
+    .line 30
+    invoke-static {v0, v7}, Lk0/t4;->l(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 31
+    :pswitch_1b
+    invoke-static {v7}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    .line 32
+    :pswitch_1c
+    invoke-static {v7}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+
+    nop
+
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_1c
+        :pswitch_1b
+        :pswitch_1a
+        :pswitch_19
+        :pswitch_18
+        :pswitch_17
+        :pswitch_16
+        :pswitch_15
+        :pswitch_14
+        :pswitch_13
+        :pswitch_12
+        :pswitch_11
+        :pswitch_10
+        :pswitch_f
+        :pswitch_e
+        :pswitch_d
+        :pswitch_c
+        :pswitch_b
+        :pswitch_a
+        :pswitch_9
+        :pswitch_8
+        :pswitch_7
+        :pswitch_6
+        :pswitch_5
+        :pswitch_4
+        :pswitch_3
+        :pswitch_2
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
+.end method

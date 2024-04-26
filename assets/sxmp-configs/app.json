@@ -1,0 +1,13 @@
+{
+  "config": {
+    "isFocusOnInputEnabled": true,
+    "isJankStatsEnabled": true
+  },
+  "overrides": {
+    "disableFocusOnInputForFireTv": {
+      "constraints": {"isFireTv": {"key": "hasSystemFeature", "value": "amazon.hardware.fire_tv"}},
+      "priority": 1,
+      "overrideConfig": {"isFocusOnInputEnabled": false}
+    }
+  }
+}

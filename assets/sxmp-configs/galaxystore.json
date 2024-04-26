@@ -1,0 +1,26 @@
+{
+  "config": {
+    "isStoreLinkEnabled": false,
+    "storeLink": "https://siriusxm.com/samsung4gastore"
+  },
+  "overrides": {
+    "galaxyStoreLink": {
+      "constraints": { "galaxyInstall": { "key": "installerPackageName", "value": "com.sec.android.app.samsungapps" } },
+      "priority": 1,
+      "overrideConfig": { "isStoreLinkEnabled": true }
+    },
+    "canadaStoreLink": {
+      "constraints": { "canadaStore": {"key": "storeCountry", "value": "CA"} },
+      "priority": 1,
+      "overrideConfig": { "storeLink": "https://siriusxm.ca/samsunggastore" }
+    },
+    "canadaFrStoreLink": {
+      "constraints": {
+        "canadaStore": {"key": "storeCountry", "value": "CA"},
+        "locale": { "key": "language", "value": "fr" }
+      },
+      "priority": 2,
+      "overrideConfig": { "isStoreLinkEnabled": true, "storeLink": "https://siriusxm.ca/samsunggamagasin" }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "config": {
+    "menuItems": [
+      {
+        "icon": "HomeOutlined",
+        "titleKey": "nav_home",
+        "contentParams": {
+          "entityId": "00e058b6-c5df-4f4c-8bc2-2ce5b9032991",
+          "entityType": "experience"
+        }
+      },
+      {
+        "icon": "MusicOutlined",
+        "titleKey": "nav_music",
+        "contentParams": {
+          "entityId": "f7d7412b-7891-4394-bbfe-8a4339c0655f",
+          "entityType": "experience"
+        }
+      },
+      {
+        "icon": "TalkOutlined",
+        "titleKey": "nav_talk",
+        "contentParams": {
+          "entityId": "3049a6ce-ac1c-4628-884b-decacadb4a9b",
+          "entityType": "experience"
+        }
+      },
+      {
+        "icon": "SportsOutlined",
+        "titleKey": "nav_sports",
+        "contentParams": {
+          "entityId": "adee3b18-ef7e-4b0c-b3f4-7882e32747e5",
+          "entityType": "experience"
+        }
+      }
+    ],
+    "isLibrarySortEnabled": true,
+    "showEditCustomSortInLibrary": true,
+    "sortOptions": {
+      "librarySortOptions": {
+        "manual": {
+          "sortType": "MANUAL",
+          "sortOrder": "DESC"
+        }
+      }
+    },
+    "entityItems": {
+      "allFilterId": "all",
+      "newEpisodes": "new-episodes",
+      "yourEpisodes": "your-episodes",
+      "downloadsId": "library-filter-view-downloads",
+      "libraryId": "9fd8648c-7ba8-476c-99c1-cc0b8bc39ade",
+      "librarySortId": "2f5dbba0-c1e6-48d2-8204-2c54ce3ff847"
+    },
+    "localMediaIcons": {
+      "shows": "Shows",
+      "teams": "Teams",
+      "talent": "ArtistRadio",
+      "downloads": "Downloads",
+      "channels": "AllChannels",
+      "9fd8648c-7ba8-476c-99c1-cc0b8bc39ade": "Library",
+      "6626568c-1a13-4f62-b803-5671cfc396c4": "OnAirNow",
+      "7fd1dbb4-4b3f-4a2b-ba7e-17daeba765f0": "AllChannels"
+    },
+    "staticMediaIcons": {
+      "f4bc3e66-744c-4b76-b7ee-efc01de075cc": "pop",
+      "ab5b735d-5d7b-4856-a854-418d5fd5dd6f": "rock",
+      "53d9c12d-22f5-426d-9285-6feebf7e44e0": "dance",
+      "ad4a2f65-e8cd-452a-a837-7c79096fb3b5": "comedy",
+      "67a6ccd9-5090-470b-82f0-244e7ed549c9": "hipHop",
+      "f4d1900d-edec-46f4-9540-dabf670e13e2": "country",
+      "149c8952-d18c-4c08-ae93-b2b84be44719": "sportsTalk",
+      "4d9640d8-35ef-47f7-9fed-fa10d49a4b78": "howardStern",
+      "38fdc59d-edec-452b-b085-2a203a271800": "newsPolitics"
+    },
+    "paging": {
+      "pageSize": 30,
+      "maxHits": 50
+    }
+  }
+}

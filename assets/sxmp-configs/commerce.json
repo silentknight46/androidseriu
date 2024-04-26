@@ -1,0 +1,884 @@
+{
+  "config": {
+    "topPlanSkus": [
+      "com.sxm.v1.ca.goog.gp3.ip.sa.monthly",
+      "com.sxm.v1.ca.goog.gp3.ip.sa.90day.trial",
+      "com.sxm.v1.us.goog.gp1.ip.sa.monthly",
+      "com.sxm.v1.us.goog.gp1.ip.sa.90day.trial",
+      "com.sxm.v1.us.amz.am3.ip.sa.monthly",
+      "com.sxm.v1.us.amz.am3.ip.sa.3month.trial"
+    ],
+    "legacyPlanSkus": [
+      "com.sxm.v1.us.goog.gp1.ip.sa_esntl.monthly",
+      "com.sxm.v1.us.goog.gp1.ip.sa_esntl.90day.trial",
+      "com.sxm.v1.us.amz.am3.ip.sa_esntl.monthly",
+      "com.sxm.v1.us.amz.am3.ip.sa_esntl.3month.trial"
+    ],
+    "myAccountUrl": "https://siriusxm.com/myaccount",
+    "offerMarketingCopyPlanNameSuffix": "_planname",
+    "offerMarketingCopyProducts": {
+      "SIR_IP_VIP": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "SIR_AUD_ALLACCESS": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "SIR_AUD_ALLACCESS_EV": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "SIR_DATA_NAVWEAT_ALLACCESS": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "SIR_IP_SA": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "SIR_DATA_NAVTRAF_ALLACCESS": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "SIR_DATA_TRAF_ALLACCESS": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "SIR_DATA_NAVTRAF_NAVWEAT_ALLACCESS": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "SIR_DATA_TRVLLNK_ALLACCESS": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "SIR_DATA_TRVLLNK_TRAF_ALLACCESS": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "SIR_CAN_ALLACCESS_EV": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "SIR_CAN_IP_SA": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "SIR_CAN_ALLACCESS": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "SIR_AUD_FF": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "SIR_AUD_XE": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "SIR_DATA_SXAVI_EXP_EVT": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "SIR_DATA_SXMAR_COASTAL_EVT": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "SIR_DATA_TRAF_FF": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "SIR_DATA_TRAF_SE": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "SIR_DATA_WEAT_IFF": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "SIR_AUD_EVT": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "SIR_DATA_AUDVIDFF": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "SIR_DATA_SXMAR_INLAND_EVT": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "SIR_DATA_TRVLLNK_SE": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "SIR_DATA_TRVLLNK_TRAF_FF": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "SIR_DATA_WEAT_MSE": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "SIR_DATA_WEAT_VSE": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "SIR_DATA_AUDVIDSE": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "SIR_DATA_SXAVI_FORFLT_EVT": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "SIR_DATA_TRAFF_PLUS_TRVLLNK_SE": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "SIR_DATA_TRVLLNK_TRAF_SE": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "SIR_DATA_WEAT_ISE": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "SIR_DATA_WEAT_VFF": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "SIR_IP_SA_ESNTL": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "SIR_AUD_EVT_EV": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "SIR_AUD_XF": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "SIR_DATA_SXAVI_PRO_EVT": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "SIR_DATA_SXMAR_OFFSHORE_EVT": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "SIR_DATA_TRAFF_PLUS_SE": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "SIR_DATA_TRVLLNK_FF": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "SIR_CAN_EVT": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "SIR_CAN_DATA_TRAF_SE": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "SIR_CAN_EVTPLUS": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "SIR_CAN_EVT_EV": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "SIR_CAN_IP_SA_ESNTL": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_1-FO_1M1_0-IO_1M6_500-BO_1MX_FP-CAD-DI": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_1-FO_1M1_0-X-BO_1MX_FP-CAD-AM": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_1-FO_1M1_0-X-BO_1MX_FP-CAD-AP": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_1-FO_30D1_0-X-BO_1MX_FP-CAD-GO": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_1-FO_30D1_0-X-BO_1MX_FP-CAD-RO": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_1-FO_3M1_0-X-BO_1MX_FP-CAD-AM": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_1-FO_3M1_0-X-BO_1MX_FP-CAD-AP": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_1-FO_3M1_0-X-BO_1MX_FP-CAD-DI": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_1-FO_4M1_0-X-BO_1MX_FP-CAD-DI": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_1-FO_5M1_0-X-BO_1MX_FP-CAD-DI": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_1-FO_6M1_0-X-BO_1MX_FP-CAD-DI": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_1-FO_90D1_0-X-BO_1MX_FP-CAD-GO": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_1-FO_90D1_0-X-BO_1MX_FP-CAD-RO": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_1-X-IO_1M12_499-BO_1MX_FP-CAD-DI": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_1-X-IO_1M24_499-BO_1MX_FP-CAD-DI": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_1-X-IO_1M6_500-BO_1MX_FP-CAD-DI": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_1-X-IO_3M1_100-BO_1MX_FP-CAD-DI": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_1-X-IO_4M1_100-BO_1MX_FP-CAD-DI": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_1-X-X-BO_1MX_FP-CAD-AM": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_1-X-X-BO_1MX_FP-CAD-AP": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_1-X-X-BO_1MX_FP-CAD-DI": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_1-X-X-BO_1MX_FP-CAD-GO": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_1-X-X-BO_1MX_FP-CAD-RO": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_1-X-X-BO_1YX_FP-CAD-DI": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_2-FO_1M1_0-X-BO_1MX_FP-CAD-AM": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_2-FO_1M1_0-X-BO_1MX_FP-CAD-AP": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_2-FO_30D1_0-X-BO_1MX_FP-CAD-GO": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_2-FO_30D1_0-X-BO_1MX_FP-CAD-RO": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_2-FO_3M1_0-X-BO_1MX_FP-CAD-AM": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_2-FO_3M1_0-X-BO_1MX_FP-CAD-AP": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_2-FO_90D1_0-X-BO_1MX_FP-CAD-GO": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_2-FO_90D1_0-X-BO_1MX_FP-CAD-RO": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_2-X-X-BO_1MX_FP-CAD-AM": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_2-X-X-BO_1MX_FP-CAD-AP": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_2-X-X-BO_1MX_FP-CAD-GO": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "V1-CA-SXM-SXM_S_2-X-X-BO_1MX_FP-CAD-RO": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "V1-US-SXM-SXM_S_1-FO_1M1_0-IO_1M6_500-BO_1MX_FP-USD-DI": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-US-SXM-SXM_S_1-FO_1M1_0-X-BO_1MX_FP-USD-AM": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-US-SXM-SXM_S_1-FO_1M1_0-X-BO_1MX_FP-USD-AP": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-US-SXM-SXM_S_1-FO_1M1_0-X-BO_1MX_FP-USD-DI": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-US-SXM-SXM_S_1-FO_30D1_0-X-BO_1MX_FP-USD-GO": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-US-SXM-SXM_S_1-FO_30D1_0-X-BO_1MX_FP-USD-RO": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-US-SXM-SXM_S_1-FO_3M1_0-X-BO_1MX_FP-USD-AM": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-US-SXM-SXM_S_1-FO_3M1_0-X-BO_1MX_FP-USD-AP": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-US-SXM-SXM_S_1-FO_3M1_0-X-BO_1MX_FP-USD-DI": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-US-SXM-SXM_S_1-FO_4M1_0-X-BO_1MX_FP-USD-DI": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-US-SXM-SXM_S_1-FO_6M1_0-X-BO_1MX_FP-USD-DI": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-US-SXM-SXM_S_1-FO_90D1_0-X-BO_1MX_FP-USD-GO": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-US-SXM-SXM_S_1-FO_90D1_0-X-BO_1MX_FP-USD-RO": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-US-SXM-SXM_S_1-X-IO_12M1_6000-BO_1MX_FP-USD-DI": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-US-SXM-SXM_S_1-X-IO_1M12_499-BO_1MX_FP-USD-DI": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-US-SXM-SXM_S_1-X-IO_1M1_100-BO_1MX_FP-USD-DI": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-US-SXM-SXM_S_1-X-IO_1M24_499-BO_1MX_FP-USD-DI": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-US-SXM-SXM_S_1-X-IO_3M1_100-BO_1MX_FP-USD-DI": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-US-SXM-SXM_S_1-X-IO_4M1_100-BO_1MX_FP-USD-DI": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-US-SXM-SXM_S_1-X-X-BO_1MX_FP-USD-AM": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-US-SXM-SXM_S_1-X-X-BO_1MX_FP-USD-AP": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-US-SXM-SXM_S_1-X-X-BO_1MX_FP-USD-DI": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-US-SXM-SXM_S_1-X-X-BO_1MX_FP-USD-GO": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-US-SXM-SXM_S_1-X-X-BO_1MX_FP-USD-RO": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-US-SXM-SXM_S_1-X-X-BO_1YX_FP-USD-DI": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk",
+          "value_prop_livesports",
+          "value_prop_howardstern"
+        ]
+      },
+      "V1-US-SXM-SXM_S_2-FO_1M1_0-X-BO_1MX_FP-USD-AM": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "V1-US-SXM-SXM_S_2-FO_1M1_0-X-BO_1MX_FP-USD-AP": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "V1-US-SXM-SXM_S_2-FO_30D1_0-X-BO_1MX_FP-USD-GO": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "V1-US-SXM-SXM_S_2-FO_30D1_0-X-BO_1MX_FP-USD-RO": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "V1-US-SXM-SXM_S_2-FO_3M1_0-X-BO_1MX_FP-USD-AM": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "V1-US-SXM-SXM_S_2-FO_3M1_0-X-BO_1MX_FP-USD-AP": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "V1-US-SXM-SXM_S_2-FO_90D1_0-X-BO_1MX_FP-USD-GO": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "V1-US-SXM-SXM_S_2-FO_90D1_0-X-BO_1MX_FP-USD-RO": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "V1-US-SXM-SXM_S_2-X-X-BO_1MX_FP-USD-AM": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "V1-US-SXM-SXM_S_2-X-X-BO_1MX_FP-USD-AP": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "V1-US-SXM-SXM_S_2-X-X-BO_1MX_FP-USD-GO": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      },
+      "V1-US-SXM-SXM_S_2-X-X-BO_1MX_FP-USD-RO": {
+        "valueProps": [
+          "value_prop_basiccontent",
+          "value_prop_sportstalk"
+        ]
+      }
+    }
+  },
+  "overrides":{
+    "CanadaEnglish" : {
+      "constraints": {
+        "canadaStore": {
+          "key": "storeCountry",
+          "value": "CA"
+        }
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "myAccountUrl": "https://siriusxm.ca/myaccount"
+      }
+    },
+    "CanadaFrench" : {
+      "constraints": {
+        "canadaStore": {
+          "key": "storeCountry",
+          "value": "CA"
+        },
+        "locale": {
+          "key": "language",
+          "value": "fr"
+        }
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "myAccountUrl": "https://siriusxm.ca/moncompte"
+      }
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "config": {
+    "recordOfSale": "error_onboarding_redirect_us",
+    "isSubscriptionCheckDisabled": false,
+    "recoverMobileUsername": {
+      "value": {
+        "key": "app_forgot_username_us",
+        "dictionaryKey": "identity"
+      }
+    },
+    "recoverMobilePassword": {
+      "value": {
+        "key": "app_forgot_password_us",
+        "dictionaryKey": "identity"
+      }
+    },
+    "recoverTvLogin": "https://www.siriusxm.com/iap-credential-recovery",
+    "createLogin": {
+      "value": "https://care.siriusxm.com/onboarding/setup-credentials",
+      "title": {"key": "button_create_login_text", "dictionaryKey": "identity"}
+    },
+    "subscriptionIssueErrorData": {
+      "unentitledUserBodyText": {
+        "key": "account_login_body",
+        "dictionaryKey": "identity"
+      },
+      "unentitledUserBodyTextOnTv": {
+        "key": "account_login_body_ctv_us",
+        "dictionaryKey": "identity"
+      }
+    }
+  },
+  "overrides": {
+    "CanadaEnglish": {
+      "constraints": {
+        "canadaStore": {
+          "key": "storeCountry",
+          "value": "CA"
+        }
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "recordOfSale": "error_onboarding_redirect_ca",
+        "recoverTvLogin": "https://www.siriusxm.ca/iap-credential-recovery",
+        "createLogin": {
+          "value": "https://siriusxm.ca/streaming-onboarding",
+          "title": {"key": "button_create_login_text", "dictionaryKey": "identity"}
+        },
+        "recoverMobileUsername": {
+          "value": {
+            "key": "app_forgot_username_ca",
+            "dictionaryKey": "identity"
+          }
+        },
+        "recoverMobilePassword": {
+          "value": {
+            "key": "app_forgot_password_ca",
+            "dictionaryKey": "identity"
+          }
+        },
+        "subscriptionIssueErrorData": {
+          "unentitledUserBodyTextOnTv": {
+            "key": "account_login_body_ctv_ca",
+            "dictionaryKey": "identity"
+          }
+        }
+      }
+    },
+    "CanadaFrench": {
+      "constraints": {
+        "canadaStore": {
+          "key": "storeCountry",
+          "value": "CA"
+        },
+        "locale": {
+          "key": "language",
+          "value": "fr-CA"
+        }
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "recordOfSale": "error_onboarding_redirect_ca",
+        "recoverTvLogin": "https://www.siriusxm.ca/iap-credential-recovery?langpref=fr",
+        "createLogin": {
+          "value": "https://siriusxm.ca/streaming-onboarding-fr",
+          "title": {"key": "button_create_login_text", "dictionaryKey": "identity"}
+        }
+      }
+    }
+  }
+}

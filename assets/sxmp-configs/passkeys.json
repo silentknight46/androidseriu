@@ -1,0 +1,63 @@
+{
+  "config": {
+    "enabledSignInRoutes": {
+      "welcome": true
+    },
+    "enabledPasskeyCreationOrigins": {
+      "LoginPassword": true,
+      "LoginOtp": true,
+      "Register": true,
+      "Paywall": true
+    },
+    "shouldAwaitPasskeyCreation": false
+  },
+  "overrides": {
+    "disabledOnTv": {
+      "constraints": {
+        "disabledPasskeyConstraints": {
+          "key": "anyOf",
+          "value": {
+            "tv": {"key": "hasSystemFeature", "value": "android.software.leanback"},
+            "noPlayServices": {"key": "playServicesAvailable", "value": false},
+            "amazonAppId": {
+              "key": "appId",
+              "value": "com.amazon.rialto.cordova.webapp.webapp7b743ed0e02e48178fb2bf55dbb38517"
+            }
+          }
+        }
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "enabledSignInRoutes": {
+          "welcome": false
+        },
+        "enabledPasskeyCreationOrigins": {
+          "LoginPassword": false,
+          "LoginOtp": false,
+          "Register": false,
+          "Paywall": false
+        }
+      }
+    },
+    "disableOnDebugBuilds": {
+      "constraints": {
+        "debugBuild": {
+          "key": "buildType",
+          "value": "debug"
+        }
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "enabledSignInRoutes": {
+          "welcome": false
+        },
+        "enabledPasskeyCreationOrigins": {
+          "LoginPassword": false,
+          "LoginOtp": false,
+          "Register": false,
+          "Paywall": false
+        }
+      }
+    }
+  }
+}

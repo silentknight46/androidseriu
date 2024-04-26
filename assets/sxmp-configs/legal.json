@@ -1,0 +1,96 @@
+{
+  "config": {
+    "shouldShowCaLegal": false,
+    "privacyPolicyUrlMobile": {
+      "value": "https://docs.google.com/gview?embedded=true&url=https%3A%2F%2Fwww.siriusxm.com%2Fprivacypolicyapp",
+      "title": {"key": "privacypolicy_text", "dictionaryKey": "commerce"}
+    },
+    "privacyPolicyUrl": {
+      "value": {"key": "privacypolicy_url_us", "dictionaryKey": "commerce"},
+      "title": {"key": "hyperlink_privacypolicy_text", "dictionaryKey": "identity"}
+    },
+    "customerAgreementUrlMobile": {
+      "value": "https://docs.google.com/gview?embedded=true&url=https%3A%2F%2Fwww.siriusxm.com%2Fcustomeragreementapp",
+      "title": {"key": "settings_terms_policies_customer_agreement_title", "dictionaryKey": "experience"}
+    },
+    "customerAgreementUrl": {
+      "value": {"key": "customeragreement_url_us", "dictionaryKey": "commerce"},
+      "title": {"key": "hyperlink_customeragreement_text", "dictionaryKey": "identity"}
+    },
+    "helpChoicesUrl": {
+      "value": {"key": "cta_settings_help_support_us_us_web", "dictionaryKey": "experience"},
+      "title": {"key": "settings_help_support_page_title", "dictionaryKey": "experience"}
+    },
+    "privacyChoicesUrl": {
+      "value": {"key": "yourprivacychoices_url_us", "dictionaryKey": "commerce"},
+      "title": {"key": "hyperlink_privacychoices_text_us", "dictionaryKey": "identity"}
+    },
+    "smsTermsUrl": {
+      "value": "https://www.siriusxm.com/sms",
+      "title": {"key": "cta_settings_your_privacy_choices_title_us", "dictionaryKey": "experience"}
+    },
+    "sendUsFeedbackUrl": {
+      "value": "https://siriusxm.com/feedback",
+      "title": {"key": "settings_send_feedback_title", "dictionaryKey": "experience"}
+    },
+    "mobilePrefix": "https://docs.google.com/gview?embedded=true&url="
+  },
+  "overrides": {
+    "CanadaEnglish": {
+      "constraints": {
+        "canadaStore": {
+          "key": "storeCountry",
+          "value": "CA"
+        }
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "shouldShowCaLegal": true,
+        "customerAgreementUrl": {
+          "value": {"key": "customeragreement_url_ca", "dictionaryKey": "commerce"},
+          "title": {"key": "hyperlink_customeragreement_text", "dictionaryKey": "identity"}
+        },
+        "customerAgreementUrlMobile": {
+          "value": {"key": "customeragreement_url_ca", "dictionaryKey": "commerce"},
+          "title": {"key": "hyperlink_customeragreement_text", "dictionaryKey": "identity"}
+        },
+        "privacyPolicyUrl": {
+          "value": {"key": "privacypolicy_url_ca", "dictionaryKey": "commerce"},
+          "title": {"key": "hyperlink_privacypolicy_text", "dictionaryKey": "identity"}
+        },
+        "privacyPolicyUrlMobile": {
+          "value": {"key": "privacypolicy_url_ca", "dictionaryKey": "commerce"},
+          "title": {"key": "hyperlink_privacypolicy_text", "dictionaryKey": "identity"}
+        },
+        "smsTermsUrl": {
+          "value": "https://www.siriusxm.ca/sms"
+        },
+        "sendUsFeedbackUrl": {
+          "value": "https://www.siriusxm.ca/tvsurvey"
+        }
+      }
+    },
+    "CanadaFrench": {
+      "constraints": {
+        "canadaStore": {
+          "key": "storeCountry",
+          "value": "CA"
+        },
+        "locale": {
+          "key": "language",
+          "value": "fr"
+        }
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "shouldShowCaLegal": true,
+        "smsTermsUrl": {
+          "value": "https://www.siriusxm.ca/smsfr"
+        },
+        "sendUsFeedbackUrl": {
+          "value": "https://www.siriusxm.ca/tvsurvey"
+        }
+      }
+    }
+  }
+}

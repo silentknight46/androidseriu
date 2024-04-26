@@ -1,0 +1,62 @@
+{
+  "config": {
+    "crashOnFatalLogger": {
+      "isEnabled": false
+    },
+    "fileLogger": {
+      "isEnabled": false,
+      "minLogLevel": "DEBUG",
+      "tagLevels": {}
+    },
+    "logcatLogger": {
+      "isEnabled": false,
+      "minLogLevel": "INFO",
+      "tagLevels": {},
+      "levelOutputMapping": {}
+    },
+    "sentryLogger": {
+      "isEnabled": true,
+      "minLogLevel": "FATAL",
+      "tagLevels": {},
+      "levelOutputMapping": {}
+    }
+  },
+  "overrides": {
+    "debug": {
+      "constraints": {
+        "debugBuild": {
+          "key": "buildType",
+          "value": "debug"
+        }
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "crashOnFatalLogger": {
+          "isEnabled": true
+        },
+        "logcatLogger": {
+          "isEnabled": true,
+          "minLogLevel": "VERBOSE",
+          "tagLevels": {}
+        }
+      }
+    },
+    "fireTv": {
+      "constraints": {
+        "isFireTv": {
+          "key": "hasSystemFeature",
+          "value": "amazon.hardware.fire_tv"
+        }
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "logcatLogger": {
+          "levelOutputMapping": {
+            "VERBOSE":  "INFO",
+            "DEBUG":  "INFO"
+          }
+        }
+      }
+    }
+  }
+}

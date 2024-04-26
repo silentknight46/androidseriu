@@ -1,0 +1,72 @@
+{
+    "config": {
+        "reasons": [
+            {
+                "id": 1,
+                "key": "DONT_LISTEN",
+                "requiresFeedback": false,
+                "labelKey": "cancel_survey_reason_not_listening"
+            },
+            {
+                "id": 2,
+                "key": "EXPENSIVE",
+                "requiresFeedback": false,
+                "labelKey": "cancel_survey_reason_too_expensive"
+            },
+            {
+                "id": 3,
+                "key": "EXPENSIVE",
+                "requiresFeedback": false,
+                "labelKey": "cancel_survey_reason_cant_afford"
+            },
+            {
+                "id": 4,
+                "key": "OTHER_STREAMING_SVCS",
+                "requiresFeedback": false,
+                "labelKey": "cancel_survey_reason_prefer_other_service"
+            },
+            {
+                "id": 5,
+                "key": "NO_LISTENTING_OPTIONS",
+                "requiresFeedback": false,
+                "labelKey": "cancel_survey_reason_programming_issue"
+            },
+            {
+                "id": 6,
+                "key": "TECHNICAL_ISSUES",
+                "requiresFeedback": false,
+                "labelKey": "cancel_survey_reason_technical_issue"
+            },
+            {
+                "id": 7,
+                "key": "OTHER",
+                "requiresFeedback": false,
+                "labelKey": "cancel_survey_reason_billing_issue"
+            },
+            {
+                "id": 8,
+                "key": "EXPENSIVE",
+                "requiresFeedback": false,
+                "labelKey": "cancel_survey_reason_didnt_intend_to_subscribe"
+            },
+            {
+                "id": 9,
+                "key": "NO_LISTENTING_OPTIONS",
+                "requiresFeedback": false,
+                "labelKey": "cancel_survey_reason_repetitive_channels"
+            },
+            {
+                "id": 10,
+                "key": "NO_SATELLITE_RADIO",
+                "requiresFeedback": false,
+                "labelKey": "cancel_survey_reason_wanted_to_use_in_car"
+            },
+            {
+                "id": 11,
+                "key": "OTHER",
+                "requiresFeedback": true,
+                "labelKey": "cancel_survey_reason_other"
+            }
+        ]
+    }
+}

@@ -1,0 +1,70 @@
+{
+  "config": {
+    "shouldShowCaSettings": false,
+    "accountUrl": "siriusxm.com/myaccount",
+    "openSourceLicensesUrlMobile": {
+      "value": "https://docs.google.com/gview?embedded=true&url=https%3A%2F%2Fwww.siriusxm.com%2Fosl-android",
+      "title": {"key": "settings_about_open_source_licences", "dictionaryKey": "experience"}
+    },
+    "openSourceLicensesUrl": {
+      "value": "https://www.siriusxm.com/osl-android",
+      "title": {"key": "settings_about_open_source_licences", "dictionaryKey": "experience"}
+    },
+    "feedbackSurvey": {
+      "url" : "https://siriusxm.qualtrics.com/jfe/form/SV_0CcUkGIURd6sYxU",
+      "countryCode" : "USA"
+    },
+    "helpUrl": "siriusxm/help",
+    "isKeepOnScreenSettingsEnabled": true
+  },
+  "overrides": {
+    "CanadaEnglish": {
+      "constraints": {
+        "canadaStore": {
+          "key": "storeCountry",
+          "value": "CA"
+        }
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "shouldShowCaSettings": true,
+        "accountUrl": "siriusxm.ca/myaccount",
+        "feedbackSurvey": {
+          "url" : "https://siriusxm.qualtrics.com/jfe/form/SV_0CcUkGIURd6sYxU",
+          "countryCode" : "CAN"
+        },
+        "helpUrl": "siriusxm.ca/help"
+
+      }
+    },
+    "CanadaFrench": {
+      "constraints": {
+        "canadaStore": {
+          "key": "storeCountry",
+          "value": "CA"
+        },
+        "locale": {
+          "key": "language",
+          "value": "fr"
+        }
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "helpUrl": "siriusxm.ca/help",
+        "feedbackSurvey": {
+          "url" : "https://siriusxm.qualtrics.com/jfe/form/SV_0CcUkGIURd6sYxU",
+          "countryCode" : "CAN"
+        }
+      }
+    },
+    "tv": {
+      "constraints": {
+        "tv": {"key": "hasSystemFeature", "value": "android.software.leanback"}
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "isKeepOnScreenSettingsEnabled" : false
+      }
+    }
+  }
+}

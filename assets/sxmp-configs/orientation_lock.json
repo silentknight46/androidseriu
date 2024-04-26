@@ -1,0 +1,16 @@
+{
+  "config": {
+    "lockedRoutes": {}
+  },
+  "overrides": {
+    "LockOnboardingOnSmallScreen": {
+      "constraints": {"SmallScreen": {"key": "windowSizeClass", "value": "small"}},
+      "priority": 1,
+      "overrideConfig": {
+        "lockedRoutes": {
+          "onboarding": "Portrait"
+        }
+      }
+    }
+  }
+}

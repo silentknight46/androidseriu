@@ -1,0 +1,35 @@
+{
+  "config": {
+    "isTastePickingEnabled": true,
+    "isTastePickingPaginationEnabled": true,
+    "tastePickingPaginationLimitPerPage": 30,
+    "tastePickingRecommendationLimitPerPage": 3,
+    "isTastePickingBubbleOrganicEnabled": true,
+    "isTastePickingCurveAnimationEnabled": true,
+    "listenAndCollectPaginationLimitPerPage": 8
+  },
+  "overrides": {
+    "disabledOnTv": {
+      "constraints": {
+        "tv": {"key": "hasSystemFeature", "value": "android.software.leanback"}
+      },
+      "priority": 1,
+      "overrideConfig": {"isTastePickingEnabled": false}
+    },
+    "tastePickerExperiment": {
+      "priority": 1,
+      "constraints": {
+        "tastePickerDisabledExperiment": {
+          "key": "experiment",
+          "value": {
+            "experimentId": 39,
+            "treatmentArmId": 53
+          }
+        }
+      },
+      "overrideConfig": {
+        "isTastePickingEnabled": false
+      }
+    }
+  }
+}

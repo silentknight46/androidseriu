@@ -1,0 +1,116 @@
+{
+  "config": {
+    "senderId": "326574451640",
+    "serverUrl": "https://mcmm29w1dll7v000055m3ykvbz04.device.marketingcloudapis.com/",
+    "countrySpecificConfig": null,
+    "account": "siriusxmradioinc",
+    "events": {
+      "mediaConsumedEvent": {
+        "eventName": "mediaconsumedevent",
+        "contentIdAttributeName": "contentId"
+      }
+    },
+    "inAppMessagingConfig": {
+      "isEnabled": true,
+      "shouldShowOnTv": false
+    }
+  },
+  "overrides": {
+    "debug": {
+      "constraints": {
+        "debugBuild": {
+          "key": "buildType",
+          "value": "debug"
+        }
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "senderId": "994378766217"
+      }
+    },
+    "usDev": {
+      "constraints": {
+        "debugBuild": {
+          "key": "buildType",
+          "value": "debug"
+        },
+        "usStore": {
+          "key": "storeCountry",
+          "value": "US"
+        }
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "countrySpecificConfig": {
+          "appId": "a008ad3d-a476-4bad-9510-caac13de6b96",
+          "accessToken": "cJVMexmWsBohyYFhwi69aNug",
+          "dataset": "dev_us",
+          "mid": "546002666"
+        }
+      }
+    },
+    "usProd": {
+      "constraints": {
+        "debugBuild": {
+          "key": "buildType",
+          "value": "release"
+        },
+        "usStore": {
+          "key": "storeCountry",
+          "value": "US"
+        }
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "countrySpecificConfig": {
+          "appId": "711c020a-ddd7-47c8-aad4-d243e6458eea",
+          "accessToken": "NTKRgZGsEZPUciyo2cZwXBmo",
+          "dataset": "prod_us",
+          "mid": "546002665"
+        }
+      }
+    },
+    "canadaDev": {
+      "constraints": {
+        "debugBuild": {
+          "key": "buildType",
+          "value": "debug"
+        },
+        "canadaStore": {
+          "key": "storeCountry",
+          "value": "CA"
+        }
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "countrySpecificConfig": {
+          "appId": "7afce5b9-12b5-4683-b9f8-c4e084e14429",
+          "accessToken": "b7tp4tWcjCuB3DLbZZD4BWSd",
+          "dataset": "dev_ca",
+          "mid": "546002668"
+        }
+      }
+    },
+    "canadaProd": {
+      "constraints": {
+        "debugBuild": {
+          "key": "buildType",
+          "value": "release"
+        },
+        "canadaStore": {
+          "key": "storeCountry",
+          "value": "CA"
+        }
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "countrySpecificConfig": {
+          "appId": "7ecaafae-beb7-43c8-a2c5-acd5cc1329b2",
+          "accessToken": "6JfM59F1QKODMykSaQmqjI5L",
+          "dataset": "prod_ca",
+          "mid": "546002667"
+        }
+      }
+    }
+  }
+}

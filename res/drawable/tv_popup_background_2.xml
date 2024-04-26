@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="112.0dip" android:width="199.11111dip" android:viewportWidth="1920.0" android:viewportHeight="1080.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M0,0h1920v1080h-1920z" />
+        <group>
+            <clip-path android:pathData="M198.6,-516.9L2184.4,-516.9A198.6,198.6 0,0 1,2383 -318.3L2383,979.1A198.6,198.6 0,0 1,2184.4 1177.7L198.6,1177.7A198.6,198.6 0,0 1,0 979.1L0,-318.3A198.6,198.6 0,0 1,198.6 -516.9z" />
+            <path android:fillColor="#ff111314" android:pathData="M198.6,-516.9L2184.4,-516.9A198.6,198.6 0,0 1,2383 -318.3L2383,979.1A198.6,198.6 0,0 1,2184.4 1177.7L198.6,1177.7A198.6,198.6 0,0 1,0 979.1L0,-318.3A198.6,198.6 0,0 1,198.6 -516.9z" />
+            <path android:fillColor="#ff934566" android:pathData="M478.9,-278.3C680.4,-566.4 1182.2,-563.1 1599.8,-271C2017.3,21 1787.1,1106.7 1585.6,1394.7C1384.1,1682.8 1548.8,701.4 1131.2,409.4C713.7,117.3 277.4,9.8 478.9,-278.3Z" />
+            <path android:fillColor="@drawable/$tv_popup_background_2__0" android:pathData="M1503.4,-183.5C1626.1,-0.1 1617.1,125.4 1662.9,326.7C1751.5,715.1 1614.4,942.9 1730.4,1328.1C1967,2114.1 2880.1,-128.1 2103.4,-670C1615.1,-1010.6 85.9,-1289.8 503.3,-893.8C670,-735.7 849.1,-724.8 1043.2,-588C1243.5,-446.7 1378.2,-370.6 1503.4,-183.5Z" />
+            <path android:fillColor="#ff644040" android:pathData="M396.7,457.1C631.5,438 785.1,336.4 935.1,101.1C1238.9,-375.8 -524,-518.3 -280.6,2.8C-127.1,331.3 96.9,481.5 396.7,457.1Z" />
+            <path android:fillColor="#ff139da6" android:pathData="M390.1,143C585.2,130.1 712.6,58.1 836.4,-109.5C1087.4,-449 -378.7,-556.8 -174.6,-183.9C-45.8,51.3 140.9,159.3 390.1,143Z" />
+        </group>
+    </group>
+</vector>

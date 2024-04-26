@@ -1,0 +1,175 @@
+{
+  "config": {
+    "categories": [
+      {
+        "entityId": "a16c8978-e242-48a4-a6ac-c863b23dc6eb",
+        "entityType": "home",
+        "titleKey": "nav_for_you"
+      },
+      {
+        "entityId": "97f91309-0869-4d6a-b737-f1520e1089fd",
+        "entityType": "home",
+        "titleKey": "nav_music"
+      },
+      {
+        "entityId": "7e4ec86d-9436-4667-822c-ce7110844ace",
+        "entityType": "home",
+        "titleKey": "nav_talk"
+      },
+      {
+        "entityId": "32f44868-bf09-4ff9-ae7a-f27c2e4f01e9",
+        "entityType": "home",
+        "titleKey": "nav_sports"
+      }
+    ],
+    "endPoints": {
+      "searchFilter": "containers/search-results-filter.json",
+      "recentSearches": "containers/recent-search-large_list-container.json"
+    },
+    "filters": {
+      "libraryFilters": {
+        "all": {
+          "filterViewId": "library-filter-view-all",
+          "filterTypes": ["library-filters-all"]
+        },
+        "channels": {
+          "filterViewId": "library-filter-view-channels",
+          "filterTypes": ["channel-xtra", "channel-linear"]
+        },
+        "shows": {
+          "filterViewId": "library-filter-view-shows-podcasts",
+          "filterTypes": ["show-podcast", "new-episodes", "show", "your-episodes"]
+        },
+        "talent": {
+          "filterViewId": "library-filter-view-artists-hosts",
+          "filterTypes": ["artist-station", "talent"]
+        },
+        "teams": {
+          "filterViewId": "library-filter-view-teams-leagues",
+          "filterTypes": ["league", "team"]
+        },
+        "downloads": {
+          "filterViewId": "library-filter-view-downloads",
+          "filterTypes": []
+        }
+      },
+      "yourEpisodesFilters": {
+        "downloads": {
+          "filterViewId": "your-episodes-filter-view-downloads",
+          "filterTypes": ["your-episodes-filters-downloads"]
+        }
+      },
+      "searchFilters": {
+        "all": {
+          "filterViewId": "All",
+          "filterTypes": []
+        },
+        "shows": {
+          "filterViewId": "Shows & Podcasts",
+          "filterTypes": ["show-podcast", "show"]
+        }
+      }
+    },
+    "sortOptions": {
+      "librarySortOptions": {
+        "manual": {
+          "id": "MANUAL_DESC",
+          "title": "My Order",
+          "sortType": "MANUAL",
+          "sortOrder": "DESC"
+        }
+      }
+    },
+    "entityIds": {
+      "libraryEntityId": "2f5dbba0-c1e6-48d2-8204-2c54ce3ff847",
+      "newEpisodesContainerId": "new-episodes",
+      "newEpisodesEntityId": "new-episodes",
+      "newEpisodesSetId": "library-new-episodes",
+      "yourEpisodesEntityId": "your-episodes",
+      "yourEpisodesSetId": "library-your-episodes"
+    },
+    "isRouteToEntityPageOnTune": false,
+    "lookaroundMinRefreshInterval": "PT30S",
+    "lookaroundMaxRefreshInterval": "PT1H",
+    "lookaroundEpisodesRefreshInterval": "PT120S",
+    "shouldShowContainerErrors": false,
+    "shouldShowSingleContainerError": true,
+    "filterSetItemsByType": "",
+    "shouldShowMissingMetadata": false,
+    "shouldRetryOnNetworkError": true,
+    "isAiredEarlierBadgingEnabled": true,
+    "placeholders": [
+      {
+        "page": "home",
+        "styles": ["hero_multi", "medium_tile"]
+      },
+      {
+        "page": "search",
+        "styles": ["medium_tile", "genres"]
+      },
+      {
+        "page": "library",
+        "styles": [""]
+      },
+      {
+        "page": "container",
+        "styles": [""]
+      }
+    ],
+    "playableStates": {
+      "scoreStates": {
+        "delayed": true,
+        "preGame": true,
+        "scheduled": false,
+        "final": false,
+        "inProgress": true,
+        "terminated": false
+      },
+      "episodeStates": {
+        "airedEarlier": false,
+        "justEnded": false,
+        "upcoming": false,
+        "onAirNow": true
+      }
+    },
+    "tvDebounce": {
+      "verticalOnPressInterval": "PT0.250S",
+      "verticalOnHoldInterval": "PT0.500S",
+      "horizontalOnPressInterval": "PT0.100S",
+      "horizontalOnHoldInterval": "PT0.200S",
+      "discardDelayedEventInterval": "PT0.050S"
+    },
+    "viewAll": {
+      "shouldPaginateBrowsableSets": false,
+      "maxItemsBeforeViewAll": 6
+    },
+    "userProgress": {
+      "autoRefreshUserProgressInterval": "PT15M",
+      "autoRefreshUserProgressMinInterval": "PT10S",
+      "realtimeUserProgressInterval": "PT1M",
+      "isRealtimeProgressEnabled": true,
+      "isDeltaEnabled": false
+    },
+    "isLibrarySortEnabled": true,
+    "showEditCustomSortInLibrary": false,
+    "isFeedPickerEnabled": false,
+    "retainedPageTTL": "PT1H"
+  },
+  "overrides": {
+    "tvCategories": {
+      "constraints": {
+        "tv": {
+          "key": "hasSystemFeature",
+          "value": "android.software.leanback"
+        }
+      },
+      "priority": 1,
+      "overrideConfig": {
+        "categories": [],
+        "viewAll": {
+          "maxItemsBeforeViewAll": 6
+        }
+      }
+    }
+  }
+}
